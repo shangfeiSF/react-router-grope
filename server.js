@@ -19,8 +19,8 @@ var webpackDevMiddlewareConfig = require('./webpackDevMiddleware.config')
 
 var server = express()
 
-server.use(express.static(__dirname))
 server.use(express.static(path.join(__dirname, 'local')))
+server.use(express.static(path.join(__dirname, '__build__')))
 
 server.use(webpackDevMiddleware(webpack(webpackConfig), webpackDevMiddlewareConfig))
 
@@ -36,7 +36,7 @@ fs.readdirAsync(mainDir)
   })
   .then(function (files) {
     files.forEach(function (file) {
-      server.use(expressUrlrewrite('/main/' + file + '/*', '/' + file + '/index.html'))
+      server.use(expressUrlrewrite('/main/' + file + '/*', '/main/' + file + '/index.html'))
     })
   })
 

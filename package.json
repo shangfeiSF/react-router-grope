@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "dependencies": {
     "history": "^2.1.2",
-    "hoist-non-react-statics": "^1.2.0"
+    "hoist-non-react-statics": "^1.2.0",
+    "react-router": "^2.6.1"
   },
   "devDependencies": {
     "bluebird": "^3.4.1",
