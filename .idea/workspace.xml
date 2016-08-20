@@ -2,96 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a783cc9-3ac9-42f6-966f-0d1982a0f42c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.eslintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/active-links/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/active-links/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/animations/app.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/animations/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/animations/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/auth-flow-async-with-query-params/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/auth-flow-async-with-query-params/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/auth-flow/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/auth-flow/auth.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/auth-flow/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/auth-with-shared-root/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/auth-with-shared-root/components/About.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/auth-with-shared-root/components/App.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/auth-with-shared-root/components/Dashboard.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/auth-with-shared-root/components/Landing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/auth-with-shared-root/components/Login.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/auth-with-shared-root/components/Logout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/auth-with-shared-root/components/PageOne.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/auth-with-shared-root/components/PageTwo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/auth-with-shared-root/components/User.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/auth-with-shared-root/config/routes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/auth-with-shared-root/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/auth-with-shared-root/utils/auth.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/breadcrumbs/app.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/breadcrumbs/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/breadcrumbs/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/confirming-navigation/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/confirming-navigation/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dynamic-segments/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dynamic-segments/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/global.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/components/App.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/components/Dashboard.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/components/GlobalNav.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/routes/Calendar/components/Calendar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/routes/Calendar/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/routes/Course/components/Course.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/routes/Course/components/Dashboard.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/routes/Course/components/Nav.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/routes/Course/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/routes/Course/routes/Announcements/components/Announcements.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/routes/Course/routes/Announcements/components/Sidebar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/routes/Course/routes/Announcements/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/routes/Course/routes/Announcements/routes/Announcement/components/Announcement.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/routes/Course/routes/Announcements/routes/Announcement/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/routes/Course/routes/Assignments/components/Assignments.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/routes/Course/routes/Assignments/components/Sidebar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/routes/Course/routes/Assignments/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/routes/Course/routes/Assignments/routes/Assignment/components/Assignment.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/routes/Course/routes/Assignments/routes/Assignment/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/routes/Course/routes/Grades/components/Grades.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/routes/Course/routes/Grades/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/routes/Grades/components/Grades.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/routes/Grades/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/routes/Messages/components/Messages.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/routes/Messages/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/routes/Profile/components/Profile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/routes/Profile/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/stubs/COURSES.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/master-detail/ContactStore.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/master-detail/app.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/master-detail/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/master-detail/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nested-animations/app.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nested-animations/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nested-animations/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/passing-props-to-children/app.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/passing-props-to-children/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/passing-props-to-children/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pinterest/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pinterest/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/query-params/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/query-params/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/route-no-match/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/route-no-match/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sidebar/app.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sidebar/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sidebar/data.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sidebar/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/withExampleBasename.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/2.recat-router-grope.iml" afterPath="$PROJECT_DIR$/.idea/2.recat-router-grope.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
     </list>
     <ignored path="2.recat-router-grope.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -241,8 +152,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+            <state relative-caret-position="56">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -366,52 +277,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2.recat-router-grope" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2.recat-router-grope" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2.recat-router-grope" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2.recat-router-grope" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="active-links" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2.recat-router-grope" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2.recat-router-grope" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -445,12 +310,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1471708046479</updated>
-      <workItem from="1471708048116" duration="6380000" />
+      <workItem from="1471708048116" duration="6424000" />
     </task>
+    <task id="LOCAL-00001" summary="local server run">
+      <created>1471714448949</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1471714448949</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6380000" />
+    <option name="totallyTimeSpent" value="6424000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="123" y="-8" width="1251" height="784" extended-state="6" />
@@ -458,6 +331,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29925802" sideWeight="0.49585062" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14091681" sideWeight="0.5041494" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22406639" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" show_stripe_button="true" weight="0.32993776" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="564" y="161" width="674" height="445" />
@@ -485,6 +359,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="local server run" />
+    <option name="LAST_COMMIT_MESSAGE" value="local server run" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -859,8 +737,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+        <state relative-caret-position="56">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding />
         </state>
       </provider>
