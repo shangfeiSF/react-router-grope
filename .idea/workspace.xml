@@ -262,10 +262,6 @@
               <option name="myItemId" value="2.recat-router-grope" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -310,7 +306,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1471708046479</updated>
-      <workItem from="1471708048116" duration="6424000" />
+      <workItem from="1471708048116" duration="6465000" />
     </task>
     <task id="LOCAL-00001" summary="local server run">
       <created>1471714448949</created>
@@ -319,11 +315,18 @@
       <option name="project" value="LOCAL" />
       <updated>1471714448949</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="local server run">
+      <created>1471714483886</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1471714483886</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6424000" />
+    <option name="totallyTimeSpent" value="6465000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="123" y="-8" width="1251" height="784" extended-state="6" />
