@@ -1,7 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a783cc9-3ac9-42f6-966f-0d1982a0f42c" name="Default" comment="" />
+    <list default="true" id="6a783cc9-3ac9-42f6-966f-0d1982a0f42c" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.eslintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/active-links/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/active-links/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/animations/app.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/animations/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/animations/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth-flow-async-with-query-params/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth-flow-async-with-query-params/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth-flow/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth-flow/auth.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth-flow/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth-with-shared-root/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth-with-shared-root/components/About.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth-with-shared-root/components/App.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth-with-shared-root/components/Dashboard.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth-with-shared-root/components/Landing.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth-with-shared-root/components/Login.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth-with-shared-root/components/Logout.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth-with-shared-root/components/PageOne.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth-with-shared-root/components/PageTwo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth-with-shared-root/components/User.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth-with-shared-root/config/routes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth-with-shared-root/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth-with-shared-root/utils/auth.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/breadcrumbs/app.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/breadcrumbs/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/breadcrumbs/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/confirming-navigation/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/confirming-navigation/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dynamic-segments/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dynamic-segments/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/global.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/components/App.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/components/Dashboard.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/components/GlobalNav.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/routes/Calendar/components/Calendar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/routes/Calendar/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/routes/Course/components/Course.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/routes/Course/components/Dashboard.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/routes/Course/components/Nav.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/routes/Course/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/routes/Course/routes/Announcements/components/Announcements.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/routes/Course/routes/Announcements/components/Sidebar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/routes/Course/routes/Announcements/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/routes/Course/routes/Announcements/routes/Announcement/components/Announcement.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/routes/Course/routes/Announcements/routes/Announcement/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/routes/Course/routes/Assignments/components/Assignments.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/routes/Course/routes/Assignments/components/Sidebar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/routes/Course/routes/Assignments/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/routes/Course/routes/Assignments/routes/Assignment/components/Assignment.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/routes/Course/routes/Assignments/routes/Assignment/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/routes/Course/routes/Grades/components/Grades.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/routes/Course/routes/Grades/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/routes/Grades/components/Grades.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/routes/Grades/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/routes/Messages/components/Messages.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/routes/Messages/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/routes/Profile/components/Profile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/routes/Profile/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/huge-apps/stubs/COURSES.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/master-detail/ContactStore.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/master-detail/app.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/master-detail/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/master-detail/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nested-animations/app.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nested-animations/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nested-animations/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/passing-props-to-children/app.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/passing-props-to-children/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/passing-props-to-children/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pinterest/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pinterest/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/query-params/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/query-params/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/route-no-match/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/route-no-match/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sidebar/app.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sidebar/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sidebar/data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sidebar/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/withExampleBasename.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/2.recat-router-grope.iml" afterPath="$PROJECT_DIR$/.idea/2.recat-router-grope.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
+    </list>
     <ignored path="2.recat-router-grope.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +110,177 @@
   <component name="FavoritesManager">
     <favorites_list name="2.recat-router-grope" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/active-links/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="980">
+              <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+                <element signature="e#269#910#0" expanded="false" />
+                <element signature="e#297#885#0" expanded="false" />
+                <element signature="e#680#806#0" expanded="false" />
+                <element signature="e#684#801#0" expanded="false" />
+                <element signature="e#938#972#0" expanded="false" />
+                <element signature="e#1010#1058#0" expanded="false" />
+                <element signature="e#1091#1129#0" expanded="false" />
+                <element signature="e#1170#1207#0" expanded="false" />
+                <element signature="e#1235#1268#0" expanded="false" />
+                <element signature="e#1283#1645#0" expanded="false" />
+                <element signature="e#1353#1633#0" expanded="false" />
+                <element signature="e#1477#1620#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="314">
+              <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+              <folding>
+                <element signature="e#111#131#0" expanded="false" />
+                <element signature="e#314#343#0" expanded="false" />
+                <element signature="e#1013#1141#0" expanded="false" />
+                <element signature="e#1168#1304#0" expanded="false" />
+                <element signature="e#1339#1417#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webpack.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+              <folding>
+                <element signature="e#157#436#0" expanded="false" />
+                <element signature="e#236#410#0" expanded="false" />
+                <element signature="e#523#657#0" expanded="false" />
+                <element signature="e#670#861#0" expanded="false" />
+                <element signature="e#685#857#0" expanded="false" />
+                <element signature="e#693#782#0" expanded="false" />
+                <element signature="e#790#851#0" expanded="false" />
+                <element signature="e#875#968#0" expanded="false" />
+                <element signature="e#1002#1027#0" expanded="false" />
+                <element signature="e#1041#1227#0" expanded="false" />
+                <element signature="e#1131#1222#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webpackDevMiddleware.config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webpackDevMiddleware.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/active-links/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GlobalNav.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/huge-apps/components/GlobalNav.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-336">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".babelrc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.babelrc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding>
+                <marker date="1471713715116" expanded="true" signature="0:80" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/local/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/local/withExampleBasename.js" />
+        <option value="$PROJECT_DIR$/main/active-links/app.js" />
+        <option value="$PROJECT_DIR$/main/animations/app.js" />
+        <option value="$PROJECT_DIR$/main/auth-flow-async-with-query-params/app.js" />
+        <option value="$PROJECT_DIR$/main/auth-flow/app.js" />
+        <option value="$PROJECT_DIR$/main/auth-with-shared-root/app.js" />
+        <option value="$PROJECT_DIR$/main/breadcrumbs/app.js" />
+        <option value="$PROJECT_DIR$/main/confirming-navigation/app.js" />
+        <option value="$PROJECT_DIR$/main/dynamic-segments/app.js" />
+        <option value="$PROJECT_DIR$/main/huge-apps/app.js" />
+        <option value="$PROJECT_DIR$/main/master-detail/app.js" />
+        <option value="$PROJECT_DIR$/main/nested-animations/app.js" />
+        <option value="$PROJECT_DIR$/main/passing-props-to-children/app.js" />
+        <option value="$PROJECT_DIR$/main/pinterest/app.js" />
+        <option value="$PROJECT_DIR$/main/query-params/app.js" />
+        <option value="$PROJECT_DIR$/main/route-no-match/app.js" />
+        <option value="$PROJECT_DIR$/main/sidebar/app.js" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/.babelrc" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/webpackDevMiddleware.config.js" />
+        <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" />
   <component name="JsBuildToolPackageJson" detection-done="true" />
@@ -32,6 +292,25 @@
     <option name="y" value="-8" />
     <option name="width" value="1251" />
     <option name="height" value="784" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>AngularJS</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>EmptyEventHandler</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -72,6 +351,10 @@
               <option name="myItemId" value="2.recat-router-grope" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -80,6 +363,52 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="2.recat-router-grope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2.recat-router-grope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2.recat-router-grope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2.recat-router-grope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2.recat-router-grope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="active-links" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2.recat-router-grope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2.recat-router-grope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="local" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -93,9 +422,18 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/main" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="nodejs_interpreter_path" value="C:\Program Files (x86)\nodejs\node" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -107,35 +445,43 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1471708046479</updated>
-      <workItem from="1471708048116" duration="39000" />
+      <workItem from="1471708048116" duration="6380000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39000" />
+    <option name="totallyTimeSpent" value="6380000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="123" y="-8" width="1251" height="784" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27040395" sideWeight="0.49585062" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29925802" sideWeight="0.49585062" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14091681" sideWeight="0.5041494" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22406639" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.32993776" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="767" y="236" width="987" height="426" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" show_stripe_button="true" weight="0.32993776" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="564" y="161" width="674" height="445" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="1017" y="400" width="878" height="318" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14035088" sideWeight="0.5041494" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.32993776" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="1045" y="153" width="833" height="415" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14035088" sideWeight="0.5041494" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.39937758" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="717" y="221" width="1040" height="385" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.4346473" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="590" y="149" width="1072" height="419" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="1017" y="400" width="878" height="318" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.39937758" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="717" y="221" width="1040" height="385" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -143,5 +489,381 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sidebar/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.eslintrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/active-links/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="12" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/withExampleBasename.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/withExampleBasename.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="43" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/auth-with-shared-root/components/About.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/auth-with-shared-root/config/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/auth-with-shared-root/utils/auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/animations/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/auth-flow-async-with-query-params/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/auth-flow/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/auth-with-shared-root/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/breadcrumbs/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/confirming-navigation/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/dynamic-segments/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/huge-apps/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/master-detail/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/nested-animations/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/passing-props-to-children/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/pinterest/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/query-params/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/route-no-match/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/sidebar/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="e#270#465#0" expanded="false" />
+            <element signature="e#344#459#0" expanded="false" />
+            <element signature="e#505#881#0" expanded="false" />
+            <element signature="e#579#875#0" expanded="false" />
+            <element signature="e#662#864#0" expanded="false" />
+            <element signature="e#724#840#0" expanded="false" />
+            <element signature="e#928#1081#0" expanded="false" />
+            <element signature="e#997#1075#0" expanded="false" />
+            <element signature="e#1107#1272#0" expanded="false" />
+            <element signature="e#1138#1263#0" expanded="false" />
+            <element signature="e#1307#1534#0" expanded="false" />
+            <element signature="e#1341#1525#0" expanded="false" />
+            <element signature="e#1402#1505#0" expanded="false" />
+            <element signature="e#1578#1739#0" expanded="false" />
+            <element signature="e#1588#1660#0" expanded="false" />
+            <element signature="e#1665#1730#0" expanded="false" />
+            <element signature="e#1754#2044#0" expanded="false" />
+            <element signature="e#1824#2032#0" expanded="false" />
+            <element signature="e#1863#2019#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/animations/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/withExampleBasename.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding>
+            <element signature="e#157#436#0" expanded="false" />
+            <element signature="e#236#410#0" expanded="false" />
+            <element signature="e#523#657#0" expanded="false" />
+            <element signature="e#670#861#0" expanded="false" />
+            <element signature="e#685#857#0" expanded="false" />
+            <element signature="e#693#782#0" expanded="false" />
+            <element signature="e#790#851#0" expanded="false" />
+            <element signature="e#875#968#0" expanded="false" />
+            <element signature="e#1002#1027#0" expanded="false" />
+            <element signature="e#1041#1227#0" expanded="false" />
+            <element signature="e#1131#1222#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/huge-apps/components/GlobalNav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-336">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.babelrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <marker date="1471713715116" expanded="true" signature="0:80" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpackDevMiddleware.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+          <folding>
+            <element signature="e#111#131#0" expanded="false" />
+            <element signature="e#314#343#0" expanded="false" />
+            <element signature="e#1013#1141#0" expanded="false" />
+            <element signature="e#1168#1304#0" expanded="false" />
+            <element signature="e#1339#1417#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/active-links/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="980">
+          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#269#910#0" expanded="false" />
+            <element signature="e#297#885#0" expanded="false" />
+            <element signature="e#680#806#0" expanded="false" />
+            <element signature="e#684#801#0" expanded="false" />
+            <element signature="e#938#972#0" expanded="false" />
+            <element signature="e#1010#1058#0" expanded="false" />
+            <element signature="e#1091#1129#0" expanded="false" />
+            <element signature="e#1170#1207#0" expanded="false" />
+            <element signature="e#1235#1268#0" expanded="false" />
+            <element signature="e#1283#1645#0" expanded="false" />
+            <element signature="e#1353#1633#0" expanded="false" />
+            <element signature="e#1477#1620#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/active-links/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

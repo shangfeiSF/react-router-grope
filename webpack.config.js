@@ -1,18 +1,28 @@
-/*eslint-disable no-var */
-
 var fs = require('fs')
 var path = require('path')
+
 var webpack = require('webpack')
+
+var mainDir = path.join(__dirname, 'main')
+
+var makeEntry = function () {
+  var entry = {}
+  fs.readdirSync(mainDir)
+    .reduce(function (entry, dir) {
+      var isDirectory = fs.statSync(path.join(mainDir, dir)).isDirectory()
+
+      isDirectory && (entry[dir] = path.join(mainDir, dir, 'app.js'));
+
+      return entry
+    }, entry)
+
+  return entry
+}
 
 module.exports = {
   devtool: 'inline-source-map',
 
-  entry: fs.readdirSync(__dirname).reduce(function (entries, dir) {
-    if (fs.statSync(path.join(__dirname, dir)).isDirectory())
-      entries[dir] = path.join(__dirname, dir, 'app.js')
-
-    return entries
-  }, {}),
+  entry: makeEntry(),
 
   output: {
     path: __dirname + '/__build__',
@@ -23,18 +33,24 @@ module.exports = {
 
   module: {
     loaders: [
-      {test: /\.js$/, exclude: /node_modules/, loader: 'babel'},
-      {test: /\.css$/, loader: 'style!css'}
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        loader: 'babel'
+      },
+      {
+        test: /\.css$/,
+        loader: 'style!css'
+      }
     ]
   },
 
   resolve: {
     alias: {
-      'react-router': path.join(__dirname, '..', 'modules')
+      'react-router': path.join(__dirname, 'assets', 'react-router')
     }
   },
 
-  // Expose __dirname to allow automatically setting basename.
   context: __dirname,
 
   node: {
@@ -48,5 +64,4 @@ module.exports = {
       'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV || 'development')
     })
   ]
-
 }
