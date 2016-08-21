@@ -1,156 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a783cc9-3ac9-42f6-966f-0d1982a0f42c" name="Default" comment="leran react-router~">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/1.setting-up/_readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/1.setting-up/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/1.setting-up/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/1.setting-up/modules/App.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/1.setting-up/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/1.setting-up/webpack.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/10.clean-urls/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/10.clean-urls/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/10.clean-urls/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/10.clean-urls/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/10.clean-urls/modules/About.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/10.clean-urls/modules/App.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/10.clean-urls/modules/Home.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/10.clean-urls/modules/NavLink.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/10.clean-urls/modules/Repo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/10.clean-urls/modules/Repos.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/10.clean-urls/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/10.clean-urls/webpack.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/11.productionish-server/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/11.productionish-server/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/11.productionish-server/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/11.productionish-server/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/11.productionish-server/modules/About.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/11.productionish-server/modules/App.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/11.productionish-server/modules/Home.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/11.productionish-server/modules/NavLink.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/11.productionish-server/modules/Repo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/11.productionish-server/modules/Repos.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/11.productionish-server/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/11.productionish-server/webpack.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/12.navigating/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/12.navigating/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/12.navigating/modules/About.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/12.navigating/modules/App.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/12.navigating/modules/Home.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/12.navigating/modules/NavLink.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/12.navigating/modules/Repo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/12.navigating/modules/Repos.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/12.navigating/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/12.navigating/public/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/12.navigating/public/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/12.navigating/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/12.navigating/webpack.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/13.server-rendering/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/13.server-rendering/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/13.server-rendering/modules/About.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/13.server-rendering/modules/App.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/13.server-rendering/modules/Home.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/13.server-rendering/modules/NavLink.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/13.server-rendering/modules/Repo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/13.server-rendering/modules/Repos.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/13.server-rendering/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/13.server-rendering/public/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/13.server-rendering/public/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/13.server-rendering/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/13.server-rendering/webpack.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/14.whats-next/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/14.whats-next/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/14.whats-next/modules/About.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/14.whats-next/modules/App.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/14.whats-next/modules/Home.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/14.whats-next/modules/NavLink.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/14.whats-next/modules/Repo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/14.whats-next/modules/Repos.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/14.whats-next/modules/routes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/14.whats-next/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/14.whats-next/public/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/14.whats-next/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/14.whats-next/webpack.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/14.whats-next/webpack.server.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/2.rendering-a-route/_readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/2.rendering-a-route/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/2.rendering-a-route/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/2.rendering-a-route/modules/About.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/2.rendering-a-route/modules/App.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/2.rendering-a-route/modules/Repos.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/2.rendering-a-route/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/2.rendering-a-route/webpack.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/3.navigating-with-link/_readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/3.navigating-with-link/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/3.navigating-with-link/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/3.navigating-with-link/modules/About.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/3.navigating-with-link/modules/App.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/3.navigating-with-link/modules/Repos.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/3.navigating-with-link/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/3.navigating-with-link/webpack.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/4.nested-routes/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/4.nested-routes/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/4.nested-routes/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/4.nested-routes/modules/About.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/4.nested-routes/modules/App.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/4.nested-routes/modules/Repos.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/4.nested-routes/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/4.nested-routes/webpack.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/5.active-links/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/5.active-links/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/5.active-links/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/5.active-links/modules/About.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/5.active-links/modules/App.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/5.active-links/modules/Repos.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/5.active-links/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/5.active-links/webpack.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/6.params/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/6.params/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/6.params/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/6.params/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/6.params/modules/About.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/6.params/modules/App.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/6.params/modules/NavLink.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/6.params/modules/Repos.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/6.params/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/6.params/webpack.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/7.more-nesting/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/7.more-nesting/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/7.more-nesting/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/7.more-nesting/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/7.more-nesting/modules/About.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/7.more-nesting/modules/App.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/7.more-nesting/modules/NavLink.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/7.more-nesting/modules/Repo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/7.more-nesting/modules/Repos.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/7.more-nesting/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/7.more-nesting/webpack.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/8.index-routes/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/8.index-routes/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/8.index-routes/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/8.index-routes/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/8.index-routes/modules/About.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/8.index-routes/modules/App.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/8.index-routes/modules/NavLink.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/8.index-routes/modules/Repo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/8.index-routes/modules/Repos.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/8.index-routes/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/8.index-routes/webpack.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/9.index-links/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/9.index-links/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/9.index-links/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/9.index-links/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/9.index-links/modules/About.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/9.index-links/modules/App.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/9.index-links/modules/Home.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/9.index-links/modules/NavLink.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/9.index-links/modules/Repo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/9.index-links/modules/Repos.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/9.index-links/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/9.index-links/webpack.config.js" />
+    <list default="true" id="6a783cc9-3ac9-42f6-966f-0d1982a0f42c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/4.nested-routes/_readme.md" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/4.nested-routes/README.md" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/active-links/app.js" afterPath="$PROJECT_DIR$/main/active-links/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lessons/4.nested-routes/index.js" afterPath="$PROJECT_DIR$/lessons/4.nested-routes/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lessons/4.nested-routes/modules/About.js" afterPath="$PROJECT_DIR$/lessons/4.nested-routes/modules/About.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lessons/4.nested-routes/modules/App.js" afterPath="$PROJECT_DIR$/lessons/4.nested-routes/modules/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lessons/4.nested-routes/modules/Repos.js" afterPath="$PROJECT_DIR$/lessons/4.nested-routes/modules/Repos.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lessons/4.nested-routes/package.json" afterPath="$PROJECT_DIR$/lessons/4.nested-routes/package.json" />
     </list>
     <ignored path="2.recat-router-grope.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -171,27 +30,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_readme.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lessons/3.navigating-with-link/_readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="168">
-                <caret line="66" column="3" selection-start-line="66" selection-start-column="3" selection-end-line="66" selection-end-column="3" />
-                <folding />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lessons/4.nested-routes/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+              <folding />
             </state>
-          </provider>
-          <provider editor-type-id="MultiMarkdownFxPreviewEditor">
-            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lessons/3.navigating-with-link/index.js">
+      <file leaf-file-name="About.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lessons/4.nested-routes/modules/About.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="392">
+              <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -200,10 +53,70 @@
         </entry>
       </file>
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lessons/3.navigating-with-link/modules/App.js">
+        <entry file="file://$PROJECT_DIR$/lessons/4.nested-routes/modules/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+            <state relative-caret-position="168">
+              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Repos.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lessons/4.nested-routes/modules/Repos.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lessons/4.nested-routes/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_readme.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lessons/4.nested-routes/_readme.md">
+          <provider editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="MultiMarkdownFxPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lessons/4.nested-routes/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lessons/3.navigating-with-link/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="18" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -235,76 +148,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lessons/2.rendering-a-route/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lessons/2.rendering-a-route/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="6" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lessons/2.rendering-a-route/modules/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_readme.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lessons/2.rendering-a-route/_readme.md">
-          <provider editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="364">
-                <caret line="85" column="3" selection-start-line="85" selection-start-column="3" selection-end-line="85" selection-end-column="3" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="MultiMarkdownFxPreviewEditor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main/active-links/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-              <folding>
-                <element signature="e#386#472#0" expanded="false" />
-                <element signature="e#479#556#0" expanded="false" />
-                <element signature="e#563#660#0" expanded="false" />
-                <element signature="e#667#754#0" expanded="false" />
-                <element signature="e#761#893#0" expanded="false" />
-                <element signature="e#900#977#0" expanded="false" />
-                <element signature="e#1061#1095#0" expanded="false" />
-                <element signature="e#1121#1154#0" expanded="false" />
-                <element signature="e#1191#1239#0" expanded="false" />
-                <element signature="e#1270#1308#0" expanded="false" />
-                <element signature="e#1347#1384#0" expanded="false" />
-                <element signature="e#1404#1767#0" expanded="false" />
-                <element signature="e#1474#1755#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -313,7 +156,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/local/withExampleBasename.js" />
         <option value="$PROJECT_DIR$/main/animations/app.js" />
         <option value="$PROJECT_DIR$/main/auth-flow-async-with-query-params/app.js" />
         <option value="$PROJECT_DIR$/main/auth-flow/app.js" />
@@ -360,6 +202,11 @@
         <option value="$PROJECT_DIR$/lessons/3.navigating-with-link/modules/About.js" />
         <option value="$PROJECT_DIR$/lessons/3.navigating-with-link/modules/Repos.js" />
         <option value="$PROJECT_DIR$/lessons/3.navigating-with-link/_readme.md" />
+        <option value="$PROJECT_DIR$/lessons/4.nested-routes/package.json" />
+        <option value="$PROJECT_DIR$/lessons/4.nested-routes/modules/App.js" />
+        <option value="$PROJECT_DIR$/lessons/4.nested-routes/index.js" />
+        <option value="$PROJECT_DIR$/lessons/4.nested-routes/modules/About.js" />
+        <option value="$PROJECT_DIR$/lessons/4.nested-routes/modules/Repos.js" />
       </list>
     </option>
   </component>
@@ -461,6 +308,86 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2.recat-router-grope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2.recat-router-grope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lessons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4.nested-routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2.recat-router-grope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2.recat-router-grope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lessons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4.nested-routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2.recat-router-grope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2.recat-router-grope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lessons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3.navigating-with-link" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2.recat-router-grope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2.recat-router-grope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lessons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3.navigating-with-link" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -541,7 +468,7 @@
       <updated>1471708046479</updated>
       <workItem from="1471708048116" duration="10591000" />
       <workItem from="1471744235528" duration="3987000" />
-      <workItem from="1471784230411" duration="6307000" />
+      <workItem from="1471784230411" duration="7334000" />
     </task>
     <task id="LOCAL-00001" summary="local server run">
       <created>1471714448949</created>
@@ -571,11 +498,18 @@
       <option name="project" value="LOCAL" />
       <updated>1471784583241</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="leran react-router step by step">
+      <created>1471791097420</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1471791097420</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20885000" />
+    <option name="totallyTimeSpent" value="21912000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="123" y="-8" width="1251" height="784" extended-state="6" />
@@ -616,7 +550,8 @@
     <MESSAGE value="local server run" />
     <MESSAGE value="local server run finish" />
     <MESSAGE value="leran react-router~" />
-    <option name="LAST_COMMIT_MESSAGE" value="leran react-router~" />
+    <MESSAGE value="leran react-router step by step" />
+    <option name="LAST_COMMIT_MESSAGE" value="leran react-router step by step" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -625,64 +560,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main/query-params/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/route-no-match/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/sidebar/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/huge-apps/components/GlobalNav.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-336">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/animations/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/animations/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1365">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/express-urlrewrite/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-504">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/local/global.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -1001,66 +878,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/2.rendering-a-route/index.html">
+    <entry file="file://$PROJECT_DIR$/main/active-links/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/2.rendering-a-route/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/2.rendering-a-route/modules/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/3.navigating-with-link/modules/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/3.navigating-with-link/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/3.navigating-with-link/modules/About.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/3.navigating-with-link/modules/Repos.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#268#1034#0" expanded="false" />
+            <element signature="e#301#987#0" expanded="false" />
+            <element signature="e#312#379#0" expanded="false" />
+            <element signature="e#386#472#0" expanded="false" />
+            <element signature="e#479#556#0" expanded="false" />
+            <element signature="e#563#660#0" expanded="false" />
+            <element signature="e#667#754#0" expanded="false" />
+            <element signature="e#761#893#0" expanded="false" />
+            <element signature="e#900#977#0" expanded="false" />
+            <element signature="e#1061#1095#0" expanded="false" />
+            <element signature="e#1121#1154#0" expanded="false" />
+            <element signature="e#1191#1239#0" expanded="false" />
+            <element signature="e#1270#1308#0" expanded="false" />
+            <element signature="e#1347#1384#0" expanded="false" />
+            <element signature="e#1404#1767#0" expanded="false" />
+            <element signature="e#1474#1755#0" expanded="false" />
+            <element signature="e#1598#1742#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1079,6 +918,40 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/2.rendering-a-route/modules/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/2.rendering-a-route/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/2.rendering-a-route/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/3.navigating-with-link/modules/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lessons/3.navigating-with-link/_readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
         <state split_layout="FIRST">
@@ -1093,25 +966,109 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/active-links/app.js">
+    <entry file="file://$PROJECT_DIR$/lessons/4.nested-routes/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        <state relative-caret-position="112">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="5" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/4.nested-routes/_readme.md">
+      <provider editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="MultiMarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/3.navigating-with-link/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="18" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
-            <element signature="e#386#472#0" expanded="false" />
-            <element signature="e#479#556#0" expanded="false" />
-            <element signature="e#563#660#0" expanded="false" />
-            <element signature="e#667#754#0" expanded="false" />
-            <element signature="e#761#893#0" expanded="false" />
-            <element signature="e#900#977#0" expanded="false" />
-            <element signature="e#1061#1095#0" expanded="false" />
-            <element signature="e#1121#1154#0" expanded="false" />
-            <element signature="e#1191#1239#0" expanded="false" />
-            <element signature="e#1270#1308#0" expanded="false" />
-            <element signature="e#1347#1384#0" expanded="false" />
-            <element signature="e#1404#1767#0" expanded="false" />
-            <element signature="e#1474#1755#0" expanded="false" />
+            <element signature="e#0#25#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/4.nested-routes/modules/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/3.navigating-with-link/modules/About.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/4.nested-routes/modules/About.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/3.navigating-with-link/modules/Repos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/4.nested-routes/modules/Repos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/4.nested-routes/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/4.nested-routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/4.nested-routes/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
