@@ -19,13 +19,13 @@ var webpackDevMiddlewareConfig = require('./webpackDevMiddleware.config')
 
 var server = express()
 
+var mainDir = path.join(__dirname, 'main')
+
+server.use(express.static(mainDir))
 server.use(express.static(path.join(__dirname, 'local')))
 server.use(express.static(path.join(__dirname, '__build__')))
 
 server.use(webpackDevMiddleware(webpack(webpackConfig), webpackDevMiddlewareConfig))
-
-var mainDir = path.join(__dirname, 'main')
-server.use(express.static(mainDir))
 
 fs.readdirAsync(mainDir)
   .filter(function (file) {

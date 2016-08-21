@@ -47,7 +47,7 @@ module.exports = {
 
   resolve: {
     alias: {
-      'react-router': path.join(__dirname, 'assets', 'react-router')
+      'react-router': path.join(__dirname, 'node_modules', 'react-router', 'lib')
     }
   },
 
