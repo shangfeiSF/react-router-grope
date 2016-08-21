@@ -6,59 +6,63 @@ import withExampleBasename from '../withExampleBasename'
 
 const ACTIVE = {color: 'red'}
 
-const App = ({children}) => (
-  <div>
-    <h1>APP!</h1>
+const App = ({children}) =>
+  (<div>
+    <h1>APP Links</h1>
     <ul>
-      <li><Link to="/" activeStyle={ACTIVE}>/</Link></li>
-      <li><IndexLink to="/" activeStyle={ACTIVE}>/ IndexLink</IndexLink></li>
-
-      <li><Link to="/users" activeStyle={ACTIVE}>/users</Link></li>
-      <li><IndexLink to="/users" activeStyle={ACTIVE}>/users IndexLink</IndexLink></li>
-
-      <li><Link to="/users/ryan" activeStyle={ACTIVE}>/users/ryan</Link></li>
-      <li><Link to={{ pathname: '/users/ryan', query: { foo: 'bar' } }}
-        activeStyle={ACTIVE}>/users/ryan?foo=bar</Link></li>
-
-      <li><Link to="/about" activeStyle={ACTIVE}>/about</Link></li>
+      <li>
+        <Link to="/" activeStyle={ACTIVE}>/</Link>
+      </li>
+      <li>
+        <IndexLink to="/" activeStyle={ACTIVE}>/IndexLink</IndexLink>
+      </li>
+      <li>
+        <Link to="/users" activeStyle={ACTIVE}>/users</Link>
+      </li>
+      <li>
+        <IndexLink to="/users" activeStyle={ACTIVE}>/users IndexLink</IndexLink>
+      </li>
+      <li>
+        <Link to="/users/ryan" activeStyle={ACTIVE}>/users/ryan</Link>
+      </li>
+      <li>
+        <Link to={{ pathname: '/users/ryan', query: {foo: 'bar'} }} activeStyle={ACTIVE}>/users/ryan?foo=bar</Link>
+      </li>
+      <li>
+        <Link to="/about" activeStyle={ACTIVE}>/about</Link>
+      </li>
     </ul>
-
+    <h1>APP Pages</h1>
     {children}
-  </div>
-)
+  </div> )
 
-const Index = () => (
-  <div>
+const Index = () =>
+  (<div>
     <h2>Index!</h2>
-  </div>
-)
+  </div>)
 
-const Users = ({children}) => (
-  <div>
+const About = () =>
+  (<div>
+    <h2>About</h2>
+  </div> )
+
+const Users = ({children}) =>
+  (<div>
     <h2>Users</h2>
     {children}
-  </div>
-)
+  </div>)
 
-const UsersIndex = () => (
-  <div>
+const UsersIndex = () =>
+  (<div>
     <h3>UsersIndex</h3>
-  </div>
-)
+  </div>)
 
-const User = ({params: {id}}) => (
-  <div>
+const User = ({params: {id}}) =>
+  (<div>
     <h3>User {id}</h3>
-  </div>
-)
+  </div> )
 
-const About = () => (
-  <div>
-    <h2>About</h2>
-  </div>
-)
-
-render((
+var content =
   <Router history={withExampleBasename(browserHistory, __dirname)}>
     <Route path="/" component={App}>
       <IndexRoute component={Index}/>
@@ -69,4 +73,5 @@ render((
       </Route>
     </Route>
   </Router>
-), document.getElementById('example'))
+var root = document.getElementById('example')
+render(content, root)
