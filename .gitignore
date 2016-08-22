@@ -4,3 +4,4 @@ npm-debug.log
 _build_
 lessons/*/public/bundle.js
 lessons/*/npm-debug.log
+lessons/*/server.bundle.js
