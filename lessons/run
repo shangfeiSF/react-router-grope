@@ -1,0 +1,52 @@
+#!/usr/bin/env node
+var fs = require('fs')
+var path = require('path')
+var cp = require('child_process')
+
+var nopt = require('nopt')
+var colors = require('colors')
+var Promise = require('bluebird')
+
+Promise.promisifyAll(fs)
+
+
+var options = nopt({
+  'env': String,
+  'input': String
+}, {
+  'dev': ['--env', 'development'],
+  'pro': ['--env', 'production'],
+  'i': ['--input']
+}, process.argv, 2)
+
+if (options.input) {
+  fs.readdirAsync(process.cwd())
+    .filter(function (dir) {
+      return fs.statAsync(path.join(process.cwd(), dir))
+        .then(function (stat) {
+          return (dir === options.input || dir === options.input.slice(0, -1)) && stat.isDirectory()
+        })
+    })
+
+    .then(function (dirs) {
+      var dir = dirs.pop()
+
+      var commands = {
+        env: ['webpack-dev-server ', '--inline ', '--content-base', ' public'].join('')
+      }
+
+      if (!options.env || options.env === 'development') {
+        cp.execSync(commands.env, {
+          cwd: path.join(process.cwd(), dir),
+          stdio: [process.stdin, process.stdout, process.stderr]
+        })
+      }
+      else if (options.env === 'production') {
+
+      }
+    })
+}
+else {
+  console.log('Error Input'.red)
+}
+
