@@ -2,11 +2,10 @@
   "name": "react-router-grope",
   "version": "1.0.0",
   "dependencies": {
+    "compression": "^1.6.1",
     "history": "^2.1.2",
     "hoist-non-react-statics": "^1.2.0",
     "react": "^15.3.0",
-    "react-addons-css-transition-group": "^15.3.0",
-    "react-addons-test-utils": "^15.3.0",
     "react-dom": "^15.3.0",
     "react-router": "^2.6.1"
   },

@@ -1,11 +1,14 @@
 import React from 'react'
+import {Link} from 'react-router'
 
 export default React.createClass({
   render() {
-    const { userName, repoName } = this.props.params
     return (
       <div>
-        <h2>{userName} / {repoName}</h2>
+        <h2>{this.props.params.repoName}</h2>
+        <ul role="nav">
+          <li><Link to="/repos">Repos</Link></li>
+        </ul>
       </div>
     )
   }
