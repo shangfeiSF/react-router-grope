@@ -8,9 +8,7 @@ export default React.createClass({
       <div>
         <h2>{this.props.params.repoName}</h2>
         <ul role="nav">
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/repos/facebook/react">React</Link></li>
-          <li><Link to="/repos/reactjs/react-router">React Router</Link></li>
+          <li><Link to="/repos">Repos</Link></li>
         </ul>
       </div>
     )
