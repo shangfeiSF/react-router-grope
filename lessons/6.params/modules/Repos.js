@@ -6,7 +6,7 @@ export default React.createClass({
   render() {
     return (
       <div>
-        <h2>{this.props.params.repoName}</h2>
+        <h2>Repos</h2>
         <ul role="nav">
           <li><Link to="/">Home</Link></li>
           <li><Link to="/repos/facebook/react">React</Link></li>
