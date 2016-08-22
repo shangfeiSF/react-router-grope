@@ -82,7 +82,3 @@ render((
 
 Now visit [http://localhost:8080/#/about](http://localhost:8080/#/about) and
 [http://localhost:8080/#/repos](http://localhost:8080/#/repos)
-
----
-
-[Next: Navigating With Link](../3.navigating-with-link/)
