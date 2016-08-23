@@ -155,7 +155,3 @@ NODE_ENV=production npm start
 
 You'll see some UglifyJS logging and then in the browser, you can see
 the assets are being served with gzip compression.
-
----
-
-[Next: Navigating](../12-navigating/)

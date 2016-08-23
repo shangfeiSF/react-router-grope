@@ -33,6 +33,10 @@ var shorts = (function () {
 })()
 var options = nopt(knowns, shorts, process.argv, 2)
 
+var extend = require('./webpack.extend')
+var serverOptions = extend.serverOptions
+var webpackConfigPaths = extend.webpackConfigPaths
+
 if (options.input) {
   fs.readdirAsync(process.cwd())
     .filter(function (dir) {
@@ -46,30 +50,28 @@ if (options.input) {
       var dir = dirs.pop()
 
       var commands = {
-        env: ['webpack-dev-server ', '--inline ', '--content-base', ' public']
+        development: ['webpack-dev-server ', '--inline ', '--content-base', ' public'],
+        production: ['webpack', '&&', 'node server.js']
       }
 
-      var more = {
-        10: ['--history-api-fallback']
-      }
+      var cmd = null
 
       if (!options.env || options.env === 'development') {
-        var cmd = commands.env.concat(['--config', '../webpack.common.js'])
-
         var index = dir.split('\.').shift()
-        if(more[index]){
-          cmd = cmd.concat(more[index])
-        }
 
-        cp.execSync(cmd.join(' '), {
-            cwd: path.join(process.cwd(), dir),
-            stdio: [process.stdin, process.stdout, process.stderr]
-          }
-        )
+        var configPath = webpackConfigPaths[index] ? webpackConfigPaths[index] : '../webpack.common.js'
+        cmd = commands.development.concat(['--config', configPath])
+
+        if (serverOptions[index]) cmd = cmd.concat(serverOptions[index])
       }
       else if (options.env === 'production') {
-
+        cmd = commands.production
       }
+
+      cp.execSync(cmd.join(' '), {
+        cwd: path.join(process.cwd(), dir),
+        stdio: [process.stdin, process.stdout, process.stderr]
+      })
     })
 }
 else {

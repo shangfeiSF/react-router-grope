@@ -1,30 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a783cc9-3ac9-42f6-966f-0d1982a0f42c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/10.clean-urls/public/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/10.clean-urls/public/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/10.clean-urls/spec.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/10.clean-urls/src/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/10.clean-urls/src/modules/About.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/10.clean-urls/src/modules/App.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/10.clean-urls/src/modules/Home.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/10.clean-urls/src/modules/NavLink.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/10.clean-urls/src/modules/Repo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/10.clean-urls/src/modules/Repos.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/10.clean-urls/_readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/10.clean-urls/index.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/10.clean-urls/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/10.clean-urls/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/10.clean-urls/modules/About.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/10.clean-urls/modules/App.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/10.clean-urls/modules/Home.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/10.clean-urls/modules/NavLink.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/10.clean-urls/modules/Repo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/10.clean-urls/modules/Repos.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/10.clean-urls/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/10.clean-urls/webpack.config.js" afterPath="" />
+    <list default="true" id="6a783cc9-3ac9-42f6-966f-0d1982a0f42c" name="Default" comment="format each lesson in lessons directory 10（more webpack-dev-server config in run）">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/11.productionish-server/spec.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/11.productionish-server/src/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/11.productionish-server/src/modules/About.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/11.productionish-server/src/modules/App.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/11.productionish-server/src/modules/Home.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/11.productionish-server/src/modules/NavLink.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/11.productionish-server/src/modules/Repo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/11.productionish-server/src/modules/Repos.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/12.navigating/spec.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/12.navigating/src/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/12.navigating/src/modules/About.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/12.navigating/src/modules/App.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/12.navigating/src/modules/Home.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/12.navigating/src/modules/NavLink.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/12.navigating/src/modules/Repo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/12.navigating/src/modules/Repos.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/webpack.extend.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/11.productionish-server/_readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/11.productionish-server/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/11.productionish-server/modules/About.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/11.productionish-server/modules/App.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/11.productionish-server/modules/Home.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/11.productionish-server/modules/NavLink.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/11.productionish-server/modules/Repo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/11.productionish-server/modules/Repos.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/11.productionish-server/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/12.navigating/_readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/12.navigating/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/12.navigating/modules/About.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/12.navigating/modules/App.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/12.navigating/modules/Home.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/12.navigating/modules/NavLink.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/12.navigating/modules/Repo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/12.navigating/modules/Repos.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/12.navigating/package.json" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lessons/10.clean-urls/src/modules/App.js" afterPath="$PROJECT_DIR$/lessons/10.clean-urls/src/modules/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lessons/10.clean-urls/src/modules/Repo.js" afterPath="$PROJECT_DIR$/lessons/10.clean-urls/src/modules/Repo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lessons/11.productionish-server/public/index.html" afterPath="$PROJECT_DIR$/lessons/11.productionish-server/public/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lessons/11.productionish-server/webpack.config.js" afterPath="$PROJECT_DIR$/lessons/11.productionish-server/webpack.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lessons/12.navigating/public/index.html" afterPath="$PROJECT_DIR$/lessons/12.navigating/public/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lessons/12.navigating/webpack.config.js" afterPath="$PROJECT_DIR$/lessons/12.navigating/webpack.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lessons/6.params/src/modules/Repo.js" afterPath="$PROJECT_DIR$/lessons/6.params/src/modules/Repo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lessons/7.more-nesting/src/modules/Repo.js" afterPath="$PROJECT_DIR$/lessons/7.more-nesting/src/modules/Repo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lessons/8.index-routes/src/modules/Repo.js" afterPath="$PROJECT_DIR$/lessons/8.index-routes/src/modules/Repo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lessons/9.index-links/src/modules/Repo.js" afterPath="$PROJECT_DIR$/lessons/9.index-links/src/modules/Repo.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lessons/run" afterPath="$PROJECT_DIR$/lessons/run" />
     </list>
     <ignored path="2.recat-router-grope.iws" />
@@ -45,62 +68,24 @@
     <favorites_list name="2.recat-router-grope" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lessons/10.clean-urls/src/modules/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file leaf-file-name="Repo.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lessons/9.index-links/src/modules/Repo.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="15" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Repo.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lessons/10.clean-urls/src/modules/Repo.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Repos.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lessons/9.index-links/src/modules/Repos.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="21" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Repos.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lessons/10.clean-urls/src/modules/Repos.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="15" column="140" selection-start-line="15" selection-start-column="140" selection-end-line="15" selection-end-column="140" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lessons/10.clean-urls/src/index.js">
+        <entry file="file://$PROJECT_DIR$/lessons/6.params/src/modules/Repo.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <caret line="9" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Repos.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lessons/6.params/src/modules/Repos.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -109,51 +94,97 @@
         </entry>
       </file>
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lessons/9.index-links/src/modules/App.js">
+        <entry file="file://$PROJECT_DIR$/lessons/6.params/src/modules/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="21" column="114" selection-start-line="21" selection-start-column="90" selection-end-line="21" selection-end-column="114" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="run" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lessons/run">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <element signature="e#1130#1218#0" expanded="false" />
-                <element signature="e#1237#1285#0" expanded="false" />
-                <element signature="e#1490#1541#0" expanded="false" />
+                <element signature="e#0#25#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lessons/10.clean-urls/public/index.html">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lessons/6.params/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-              <folding />
+            <state relative-caret-position="364">
+              <caret line="13" column="35" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spec.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lessons/10.clean-urls/spec.md">
-          <provider selected="true" editor-type-id="MultiMarkdownFxPreviewEditor">
-            <state />
+      <file leaf-file-name="Repo.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lessons/7.more-nesting/src/modules/Repo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
           </provider>
-          <provider editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="711">
-                <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
+        </entry>
+      </file>
+      <file leaf-file-name="Repo.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lessons/8.index-routes/src/modules/Repo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Repo.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lessons/9.index-links/src/modules/Repo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Repo.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lessons/10.clean-urls/src/modules/Repo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Repo.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lessons/11.productionish-server/src/modules/Repo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Repo.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lessons/12.navigating/src/modules/Repo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -166,35 +197,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lessons/4.nested-routes/src/modules/App.js" />
-        <option value="$PROJECT_DIR$/lessons/4.nested-routes/src/index.js" />
-        <option value="$PROJECT_DIR$/lessons/5.active-links/src/index.js" />
-        <option value="$PROJECT_DIR$/lessons/5.active-links/src/modules/App.js" />
-        <option value="$PROJECT_DIR$/lessons/5.active-links/src/modules/About.js" />
-        <option value="$PROJECT_DIR$/lessons/5.active-links/src/modules/Repos.js" />
-        <option value="$PROJECT_DIR$/lessons/6.params/src/index.js" />
-        <option value="$PROJECT_DIR$/lessons/6.params/src/modules/About.js" />
-        <option value="$PROJECT_DIR$/lessons/6.params/src/modules/NavLink.js" />
-        <option value="$PROJECT_DIR$/lessons/6.params/src/modules/Repo.js" />
-        <option value="$PROJECT_DIR$/lessons/7.more-nesting/spec.md" />
-        <option value="$PROJECT_DIR$/lessons/6.params/spec.md" />
-        <option value="$PROJECT_DIR$/lessons/7.more-nesting/public/index.html" />
-        <option value="$PROJECT_DIR$/lessons/7.more-nesting/src/index.js" />
-        <option value="$PROJECT_DIR$/lessons/7.more-nesting/src/modules/About.js" />
-        <option value="$PROJECT_DIR$/lessons/7.more-nesting/src/modules/NavLink.js" />
-        <option value="$PROJECT_DIR$/lessons/7.more-nesting/src/modules/Repo.js" />
-        <option value="$PROJECT_DIR$/lessons/6.params/src/modules/Repos.js" />
-        <option value="$PROJECT_DIR$/lessons/7.more-nesting/src/modules/Repos.js" />
-        <option value="$PROJECT_DIR$/lessons/6.params/src/modules/App.js" />
-        <option value="$PROJECT_DIR$/lessons/7.more-nesting/src/modules/App.js" />
-        <option value="$PROJECT_DIR$/lessons/8.index-routes/spec.md" />
-        <option value="$PROJECT_DIR$/lessons/8.index-routes/public/index.html" />
         <option value="$PROJECT_DIR$/lessons/6.params/public/index.html" />
         <option value="$PROJECT_DIR$/lessons/5.active-links/public/index.html" />
         <option value="$PROJECT_DIR$/lessons/8.index-routes/src/modules/About.js" />
         <option value="$PROJECT_DIR$/lessons/8.index-routes/src/modules/App.js" />
         <option value="$PROJECT_DIR$/lessons/8.index-routes/src/modules/NavLink.js" />
-        <option value="$PROJECT_DIR$/lessons/8.index-routes/src/modules/Repo.js" />
         <option value="$PROJECT_DIR$/lessons/8.index-routes/src/modules/Repos.js" />
         <option value="$PROJECT_DIR$/lessons/8.index-routes/src/index.js" />
         <option value="$PROJECT_DIR$/lessons/8.index-routes/src/modules/Home.js" />
@@ -204,7 +211,6 @@
         <option value="$PROJECT_DIR$/lessons/9.index-links/src/modules/About.js" />
         <option value="$PROJECT_DIR$/lessons/9.index-links/src/modules/Home.js" />
         <option value="$PROJECT_DIR$/lessons/9.index-links/src/modules/NavLink.js" />
-        <option value="$PROJECT_DIR$/lessons/9.index-links/src/modules/Repo.js" />
         <option value="$PROJECT_DIR$/lessons/9.index-links/src/modules/Repos.js" />
         <option value="$PROJECT_DIR$/lessons/9.index-links/src/modules/App.js" />
         <option value="$PROJECT_DIR$/lessons/10.clean-urls/spec.md" />
@@ -212,11 +218,36 @@
         <option value="$PROJECT_DIR$/lessons/10.clean-urls/src/modules/About.js" />
         <option value="$PROJECT_DIR$/lessons/10.clean-urls/src/modules/Home.js" />
         <option value="$PROJECT_DIR$/lessons/10.clean-urls/src/modules/NavLink.js" />
-        <option value="$PROJECT_DIR$/lessons/10.clean-urls/src/modules/Repo.js" />
         <option value="$PROJECT_DIR$/lessons/10.clean-urls/src/modules/Repos.js" />
-        <option value="$PROJECT_DIR$/lessons/10.clean-urls/src/modules/App.js" />
         <option value="$PROJECT_DIR$/lessons/10.clean-urls/public/index.html" />
+        <option value="$PROJECT_DIR$/lessons/11.productionish-server/spec.md" />
+        <option value="$PROJECT_DIR$/lessons/11.productionish-server/webpack.config.js" />
+        <option value="$PROJECT_DIR$/lessons/webpack.extend.js" />
+        <option value="$PROJECT_DIR$/lessons/11.productionish-server/src/modules/About.js" />
+        <option value="$PROJECT_DIR$/lessons/11.productionish-server/src/modules/App.js" />
+        <option value="$PROJECT_DIR$/lessons/11.productionish-server/src/modules/Home.js" />
+        <option value="$PROJECT_DIR$/lessons/11.productionish-server/src/modules/NavLink.js" />
+        <option value="$PROJECT_DIR$/lessons/11.productionish-server/src/modules/Repos.js" />
+        <option value="$PROJECT_DIR$/lessons/11.productionish-server/src/index.js" />
+        <option value="$PROJECT_DIR$/lessons/10.clean-urls/src/modules/App.js" />
+        <option value="$PROJECT_DIR$/lessons/11.productionish-server/public/index.html" />
         <option value="$PROJECT_DIR$/lessons/run" />
+        <option value="$PROJECT_DIR$/lessons/12.navigating/webpack.config.js" />
+        <option value="$PROJECT_DIR$/lessons/12.navigating/server.js" />
+        <option value="$PROJECT_DIR$/lessons/12.navigating/public/index.html" />
+        <option value="$PROJECT_DIR$/lessons/12.navigating/src/index.js" />
+        <option value="$PROJECT_DIR$/lessons/12.navigating/src/modules/About.js" />
+        <option value="$PROJECT_DIR$/lessons/12.navigating/src/modules/App.js" />
+        <option value="$PROJECT_DIR$/lessons/12.navigating/src/modules/Home.js" />
+        <option value="$PROJECT_DIR$/lessons/12.navigating/src/modules/NavLink.js" />
+        <option value="$PROJECT_DIR$/lessons/12.navigating/src/modules/Repos.js" />
+        <option value="$PROJECT_DIR$/lessons/6.params/src/modules/Repo.js" />
+        <option value="$PROJECT_DIR$/lessons/7.more-nesting/src/modules/Repo.js" />
+        <option value="$PROJECT_DIR$/lessons/8.index-routes/src/modules/Repo.js" />
+        <option value="$PROJECT_DIR$/lessons/9.index-links/src/modules/Repo.js" />
+        <option value="$PROJECT_DIR$/lessons/10.clean-urls/src/modules/Repo.js" />
+        <option value="$PROJECT_DIR$/lessons/11.productionish-server/src/modules/Repo.js" />
+        <option value="$PROJECT_DIR$/lessons/12.navigating/src/modules/Repo.js" />
       </list>
     </option>
   </component>
@@ -329,7 +360,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="10.clean-urls" />
+              <option name="myItemId" value="13.server-rendering" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -423,7 +454,7 @@
       <workItem from="1471744235528" duration="3987000" />
       <workItem from="1471784230411" duration="7355000" />
       <workItem from="1471836481626" duration="18557000" />
-      <workItem from="1471919081291" duration="5101000" />
+      <workItem from="1471919081291" duration="9145000" />
     </task>
     <task id="LOCAL-00001" summary="local server run">
       <created>1471714448949</created>
@@ -579,11 +610,18 @@
       <option name="project" value="LOCAL" />
       <updated>1471923379161</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="format each lesson in lessons directory 10（more webpack-dev-server config in run）">
+      <created>1471924245873</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1471924245873</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45591000" />
+    <option name="totallyTimeSpent" value="49635000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -603,7 +641,7 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22406639" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" show_stripe_button="true" weight="0.32993776" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="862" y="178" width="674" height="445" />
+      <window_info id="Version Control" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" show_stripe_button="true" weight="0.32993776" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="1139" y="235" width="674" height="445" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="1017" y="400" width="878" height="318" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14035088" sideWeight="0.5041494" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.32993776" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="1045" y="153" width="833" height="415" />
@@ -663,70 +701,23 @@
     <MESSAGE value="format each lesson in lessons directory 7" />
     <MESSAGE value="format each lesson in lessons directory 8" />
     <MESSAGE value="format each lesson in lessons directory 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="format each lesson in lessons directory 9" />
+    <MESSAGE value="format each lesson in lessons directory 10（more webpack-dev-server config in run）" />
+    <option name="LAST_COMMIT_MESSAGE" value="format each lesson in lessons directory 10（more webpack-dev-server config in run）" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lessons/5.active-links/src/modules/Repos.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="10" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#25#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/6.params/src/modules/Repos.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#25#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/6.params/src/modules/Repo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="15" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#25#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/6.params/src/modules/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#25#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/8.index-routes/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/8.index-routes/spec.md">
-      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+    <entry file="file://$PROJECT_DIR$/lessons/10.clean-urls/spec.md">
+      <provider selected="true" editor-type-id="MultiMarkdownFxPreviewEditor">
         <state />
       </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+      <provider editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="151">
+          <first_editor relative-caret-position="711">
             <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
             <folding />
           </first_editor>
@@ -734,320 +725,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/7.more-nesting/public/index.html">
+    <entry file="file://$PROJECT_DIR$/lessons/9.index-links/src/modules/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" column="26" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/2.rendering-a-route/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/3.navigating-with-link/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/4.nested-routes/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/5.active-links/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/6.params/public/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/6.params/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/8.index-routes/public/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/7.more-nesting/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="11" column="36" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/7.more-nesting/src/modules/About.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="15" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#25#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/7.more-nesting/src/modules/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="1" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/7.more-nesting/src/modules/Repos.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/7.more-nesting/src/modules/Repo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="15" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#25#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/7.more-nesting/src/modules/NavLink.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#25#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/9.index-links/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/9.index-links/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/9.index-links/spec.md">
-      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="599">
-            <caret line="52" column="34" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/8.index-routes/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" column="26" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/8.index-routes/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="31" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/8.index-routes/src/modules/About.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="11" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#25#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/8.index-routes/src/modules/Home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/8.index-routes/src/modules/NavLink.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/8.index-routes/src/modules/Repo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="15" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/8.index-routes/src/modules/Repos.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="21" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/8.index-routes/src/modules/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#25#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/10.clean-urls/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/10.clean-urls/public/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/9.index-links/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="1" column="16" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/9.index-links/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/9.index-links/src/modules/About.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="15" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#25#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/10.clean-urls/src/modules/About.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#25#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/9.index-links/src/modules/Home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/10.clean-urls/src/modules/Home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/9.index-links/src/modules/NavLink.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/10.clean-urls/src/modules/NavLink.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/9.index-links/src/modules/Repo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="15" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/10.clean-urls/src/modules/Repo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+        <state relative-caret-position="504">
+          <caret line="21" column="114" selection-start-line="21" selection-start-column="90" selection-end-line="21" selection-end-column="114" />
           <folding />
         </state>
       </provider>
@@ -1060,10 +741,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/10.clean-urls/src/modules/Repos.js">
+    <entry file="file://$PROJECT_DIR$/lessons/13.server-rendering/server.bundle.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="15" column="140" selection-start-line="15" selection-start-column="140" selection-end-line="15" selection-end-column="140" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/webpack.common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/11.productionish-server/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/13.server-rendering/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="6" column="64" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/webpack.extend.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -1071,17 +786,85 @@
     <entry file="file://$PROJECT_DIR$/lessons/10.clean-urls/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <caret line="9" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/10.clean-urls/src/modules/About.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="15" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/10.clean-urls/src/modules/Repos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/10.clean-urls/src/modules/NavLink.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/10.clean-urls/src/modules/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lessons/10.clean-urls/src/modules/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        <state relative-caret-position="476">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/11.productionish-server/spec.md">
+      <provider selected="true" editor-type-id="MultiMarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="599">
+            <caret line="152" column="17" selection-start-line="152" selection-start-column="17" selection-end-line="152" selection-end-column="17" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/run">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="683">
+          <caret line="70" column="33" selection-start-line="70" selection-start-column="33" selection-end-line="70" selection-end-column="33" />
+          <folding>
+            <element signature="e#237#275#0" expanded="false" />
+            <element signature="e#302#702#0" expanded="false" />
+            <element signature="e#319#418#0" expanded="false" />
+            <element signature="e#475#682#0" expanded="false" />
+            <element signature="e#2054#2090#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1089,42 +872,319 @@
     <entry file="file://$PROJECT_DIR$/lessons/10.clean-urls/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <caret line="10" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/9.index-links/src/modules/App.js">
+    <entry file="file://$PROJECT_DIR$/lessons/11.productionish-server/public/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="21" column="114" selection-start-line="21" selection-start-column="90" selection-end-line="21" selection-end-column="114" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/run">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
-          <folding>
-            <element signature="e#1130#1218#0" expanded="false" />
-            <element signature="e#1237#1285#0" expanded="false" />
-            <element signature="e#1490#1541#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/10.clean-urls/spec.md">
+    <entry file="file://$PROJECT_DIR$/lessons/12.navigating/_readme.md">
       <provider selected="true" editor-type-id="MultiMarkdownFxPreviewEditor">
         <state />
       </provider>
       <provider editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="711">
-            <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/12.navigating/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="3" column="93" selection-start-line="3" selection-start-column="93" selection-end-line="3" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/11.productionish-server/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="20" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="1" />
+          <folding>
+            <element signature="e#176#338#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/12.navigating/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding>
+            <element signature="e#176#338#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/11.productionish-server/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" column="19" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/12.navigating/public/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/11.productionish-server/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="1" column="16" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/12.navigating/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/11.productionish-server/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="21" column="27" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/11.productionish-server/src/modules/About.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/12.navigating/src/modules/About.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/11.productionish-server/src/modules/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="24" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/12.navigating/src/modules/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/11.productionish-server/src/modules/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/12.navigating/src/modules/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/11.productionish-server/src/modules/NavLink.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/12.navigating/src/modules/NavLink.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/11.productionish-server/src/modules/Repos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="21" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/12.navigating/src/modules/Repos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#164#375#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/12.navigating/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/12.navigating/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/12.navigating/spec.md">
+      <provider selected="true" editor-type-id="MultiMarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/6.params/src/modules/Repos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/6.params/src/modules/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/6.params/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/6.params/src/modules/Repo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/7.more-nesting/src/modules/Repo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/8.index-routes/src/modules/Repo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/9.index-links/src/modules/Repo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/10.clean-urls/src/modules/Repo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/11.productionish-server/src/modules/Repo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/12.navigating/src/modules/Repo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
