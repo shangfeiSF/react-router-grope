@@ -11,13 +11,15 @@ Promise.promisifyAll(fs)
 
 var knowns = {
   'env': String,
-  'input': String
+  'input': String,
+  'port': Number
 }
 var shorts = (function () {
   var shorts = {
     'dev': ['--env', 'development'],
     'pro': ['--env', 'production'],
-    'i': ['--input']
+    'i': ['--input'],
+    'p': ['--port']
   }
 
   fs.readdirSync(process.cwd()).forEach(function (dir) {
@@ -60,6 +62,8 @@ if (options.input) {
       if (!options.env || options.env === 'development') {
         var configPath = webpackConfigPaths[index] ? webpackConfigPaths[index] : '../webpack.common.js'
         cmd = commands.development.concat(['--config', configPath])
+
+        cmd = cmd.concat(['--port', options.port ? options.port : 8080])
 
         if (serverOptions[index]) cmd = cmd.concat(serverOptions[index])
       }

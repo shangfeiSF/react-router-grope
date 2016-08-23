@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6a783cc9-3ac9-42f6-966f-0d1982a0f42c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lessons/11.productionish-server/public/index.html" afterPath="$PROJECT_DIR$/lessons/11.productionish-server/public/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lessons/11.productionish-server/webpack.config.js" afterPath="$PROJECT_DIR$/lessons/11.productionish-server/webpack.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lessons/12.navigating/webpack.config.js" afterPath="$PROJECT_DIR$/lessons/12.navigating/webpack.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lessons/13.server-rendering/webpack.config.js" afterPath="$PROJECT_DIR$/lessons/13.server-rendering/webpack.config.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lessons/run" afterPath="$PROJECT_DIR$/lessons/run" />
     </list>
     <ignored path="2.recat-router-grope.iws" />
@@ -25,31 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lessons/13.server-rendering/server.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="6" column="26" selection-start-line="0" selection-start-column="0" selection-end-line="54" selection-end-column="2" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-                <element signature="e#399#815#0" expanded="false" />
-                <element signature="e#472#812#0" expanded="false" />
-                <element signature="e#487#534#0" expanded="false" />
-                <element signature="e#558#621#0" expanded="false" />
-                <element signature="e#642#751#0" expanded="false" />
-                <element signature="e#761#808#0" expanded="false" />
-                <element signature="n#!!block;n#renderPage#0" expanded="false" />
-                <element signature="e#1225#1297#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lessons/13.server-rendering/webpack.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+            <state relative-caret-position="336">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
                 <element signature="e#176#338#0" expanded="false" />
               </folding>
@@ -60,13 +42,12 @@
       <file leaf-file-name="webpack.server.config.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lessons/13.server-rendering/webpack.server.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+            <state relative-caret-position="168">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
               <folding>
                 <element signature="e#128#166#0" expanded="false" />
                 <element signature="e#179#341#0" expanded="false" />
                 <element signature="e#202#331#0" expanded="false" />
-                <element signature="e#501#560#0" expanded="false" />
                 <element signature="e#595#642#0" expanded="false" />
               </folding>
             </state>
@@ -76,20 +57,9 @@
       <file leaf-file-name="run" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lessons/run">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="571">
-              <caret line="74" column="14" selection-start-line="74" selection-start-column="14" selection-end-line="74" selection-end-column="14" />
-              <folding>
-                <element signature="e#237#275#0" expanded="false" />
-                <element signature="e#302#702#0" expanded="false" />
-                <element signature="e#319#418#0" expanded="false" />
-                <element signature="e#475#682#0" expanded="false" />
-                <element signature="e#565#678#0" expanded="false" />
-                <element signature="e#1025#1235#0" expanded="false" />
-                <element signature="e#1115#1228#0" expanded="false" />
-                <element signature="e#1315#1412#0" expanded="false" />
-                <element signature="e#1535#1790#0" expanded="false" />
-                <element signature="e#1952#2074#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="392">
+              <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -134,6 +104,40 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lessons/11.productionish-server/webpack.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="52" />
+              <folding>
+                <element signature="e#176#338#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lessons/12.navigating/webpack.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+              <folding>
+                <element signature="e#176#338#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webpack.common.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lessons/webpack.common.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -155,7 +159,6 @@
         <option value="$PROJECT_DIR$/lessons/10.clean-urls/src/modules/Repos.js" />
         <option value="$PROJECT_DIR$/lessons/10.clean-urls/public/index.html" />
         <option value="$PROJECT_DIR$/lessons/11.productionish-server/spec.md" />
-        <option value="$PROJECT_DIR$/lessons/11.productionish-server/webpack.config.js" />
         <option value="$PROJECT_DIR$/lessons/11.productionish-server/src/modules/About.js" />
         <option value="$PROJECT_DIR$/lessons/11.productionish-server/src/modules/App.js" />
         <option value="$PROJECT_DIR$/lessons/11.productionish-server/src/modules/Home.js" />
@@ -163,7 +166,6 @@
         <option value="$PROJECT_DIR$/lessons/11.productionish-server/src/modules/Repos.js" />
         <option value="$PROJECT_DIR$/lessons/11.productionish-server/src/index.js" />
         <option value="$PROJECT_DIR$/lessons/10.clean-urls/src/modules/App.js" />
-        <option value="$PROJECT_DIR$/lessons/12.navigating/webpack.config.js" />
         <option value="$PROJECT_DIR$/lessons/12.navigating/server.js" />
         <option value="$PROJECT_DIR$/lessons/12.navigating/public/index.html" />
         <option value="$PROJECT_DIR$/lessons/12.navigating/src/index.js" />
@@ -187,12 +189,14 @@
         <option value="$PROJECT_DIR$/lessons/13.server-rendering/src/modules/Repos.js" />
         <option value="$PROJECT_DIR$/lessons/13.server-rendering/src/modules/routes.js" />
         <option value="$PROJECT_DIR$/lessons/13.server-rendering/src/index.js" />
-        <option value="$PROJECT_DIR$/lessons/13.server-rendering/webpack.config.js" />
         <option value="$PROJECT_DIR$/lessons/13.server-rendering/webpack.server.config.js" />
         <option value="$PROJECT_DIR$/lessons/webpack.extend.js" />
         <option value="$PROJECT_DIR$/lessons/13.server-rendering/server.js" />
         <option value="$PROJECT_DIR$/lessons/11.productionish-server/public/index.html" />
         <option value="$PROJECT_DIR$/lessons/run" />
+        <option value="$PROJECT_DIR$/lessons/11.productionish-server/webpack.config.js" />
+        <option value="$PROJECT_DIR$/lessons/12.navigating/webpack.config.js" />
+        <option value="$PROJECT_DIR$/lessons/13.server-rendering/webpack.config.js" />
       </list>
     </option>
   </component>
@@ -304,7 +308,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="12.navigating" />
+              <option name="myItemId" value="13.server-rendering" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -325,32 +329,6 @@
               <option name="myItemId" value="12.navigating" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2.recat-router-grope" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2.recat-router-grope" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lessons" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="12.navigating" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -367,90 +345,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="11.productionish-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2.recat-router-grope" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2.recat-router-grope" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lessons" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="11.productionish-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2.recat-router-grope" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2.recat-router-grope" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lessons" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="11.productionish-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2.recat-router-grope" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2.recat-router-grope" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lessons" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="10.clean-urls" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2.recat-router-grope" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2.recat-router-grope" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lessons" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="10.clean-urls" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -546,7 +440,7 @@
       <workItem from="1471784230411" duration="7355000" />
       <workItem from="1471836481626" duration="18557000" />
       <workItem from="1471919081291" duration="10861000" />
-      <workItem from="1471932472097" duration="1975000" />
+      <workItem from="1471932472097" duration="2774000" />
     </task>
     <task id="LOCAL-00001" summary="local server run">
       <created>1471714448949</created>
@@ -723,11 +617,18 @@
       <option name="project" value="LOCAL" />
       <updated>1471933693077</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="fixed production command in 1-10">
+      <created>1471934984505</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1471934984505</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53326000" />
+    <option name="totallyTimeSpent" value="54125000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -746,7 +647,7 @@
       <window_info id="TODO" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14657612" sideWeight="0.507772" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22406639" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" show_stripe_button="true" weight="0.32993776" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="476" y="320" width="1099" height="439" />
+      <window_info id="Version Control" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" show_stripe_button="true" weight="0.32993776" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="290" y="159" width="1222" height="669" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="1017" y="400" width="878" height="318" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14035088" sideWeight="0.5041494" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.32993776" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="1045" y="153" width="833" height="415" />
@@ -810,7 +711,8 @@
     <MESSAGE value="format each lesson in lessons directory 10（more webpack-dev-server config in run）" />
     <MESSAGE value="format each lesson in lessons directory 11 and 12, add webpacl.extend.js to admin 10/11/12/13 webpack" />
     <MESSAGE value="fixed the path of routes" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed the path of routes" />
+    <MESSAGE value="fixed production command in 1-10" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed production command in 1-10" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -959,13 +861,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/11.productionish-server/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lessons/9.index-links/src/modules/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1066,16 +961,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/12.navigating/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding>
-            <element signature="e#176#338#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lessons/12.navigating/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
@@ -1128,30 +1013,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/13.server-rendering/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-          <folding>
-            <element signature="e#176#338#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/13.server-rendering/webpack.server.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-          <folding>
-            <element signature="e#128#166#0" expanded="false" />
-            <element signature="e#179#341#0" expanded="false" />
-            <element signature="e#202#331#0" expanded="false" />
-            <element signature="e#501#560#0" expanded="false" />
-            <element signature="e#595#642#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -1175,22 +1036,6 @@
             <element signature="n#!!block;n#renderPage#0" expanded="false" />
             <element signature="e#1225#1297#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/webpack.common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/webpack.extend.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1218,22 +1063,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/12.navigating/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+          <folding>
+            <element signature="e#176#338#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/13.server-rendering/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#176#338#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/webpack.extend.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/webpack.common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/13.server-rendering/webpack.server.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding>
+            <element signature="e#128#166#0" expanded="false" />
+            <element signature="e#179#341#0" expanded="false" />
+            <element signature="e#202#331#0" expanded="false" />
+            <element signature="e#595#642#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/11.productionish-server/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="52" />
+          <folding>
+            <element signature="e#176#338#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lessons/run">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="74" column="14" selection-start-line="74" selection-start-column="14" selection-end-line="74" selection-end-column="14" />
-          <folding>
-            <element signature="e#237#275#0" expanded="false" />
-            <element signature="e#302#702#0" expanded="false" />
-            <element signature="e#319#418#0" expanded="false" />
-            <element signature="e#475#682#0" expanded="false" />
-            <element signature="e#565#678#0" expanded="false" />
-            <element signature="e#1025#1235#0" expanded="false" />
-            <element signature="e#1115#1228#0" expanded="false" />
-            <element signature="e#1315#1412#0" expanded="false" />
-            <element signature="e#1535#1790#0" expanded="false" />
-            <element signature="e#1952#2074#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="392">
+          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

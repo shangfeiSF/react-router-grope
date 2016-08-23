@@ -19,6 +19,7 @@ module.exports = {
     ]
   },
 
+  // http://webpack.github.io/docs/optimization.html
   plugins: [
     new webpack.optimize.DedupePlugin(),
     new webpack.optimize.OccurrenceOrderPlugin(),
