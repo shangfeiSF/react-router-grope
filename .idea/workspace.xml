@@ -2,48 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a783cc9-3ac9-42f6-966f-0d1982a0f42c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/1.setting-up/spec.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/2.rendering-a-route/spec.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/3.navigating-with-link/public/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/3.navigating-with-link/spec.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/3.navigating-with-link/src/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/3.navigating-with-link/src/modules/About.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/3.navigating-with-link/src/modules/App.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/3.navigating-with-link/src/modules/Repos.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/4.nested-routes/public/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/4.nested-routes/spec.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/4.nested-routes/src/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/4.nested-routes/src/modules/About.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/4.nested-routes/src/modules/App.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/4.nested-routes/src/modules/Repos.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/1.setting-up/learn.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/1.setting-up/webpack.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/2.rendering-a-route/learn.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/2.rendering-a-route/webpack.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/3.navigating-with-link/_readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/3.navigating-with-link/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/3.navigating-with-link/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/3.navigating-with-link/modules/About.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/3.navigating-with-link/modules/App.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/3.navigating-with-link/modules/Repos.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/3.navigating-with-link/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/3.navigating-with-link/webpack.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/4.nested-routes/_readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/4.nested-routes/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/4.nested-routes/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/4.nested-routes/modules/About.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/4.nested-routes/modules/App.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/4.nested-routes/modules/Repos.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/4.nested-routes/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/4.nested-routes/webpack.config.js" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/5.active-links/public/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/5.active-links/public/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/5.active-links/spec.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/5.active-links/src/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/5.active-links/src/modules/About.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/5.active-links/src/modules/App.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/5.active-links/src/modules/NavLink.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lessons/5.active-links/src/modules/Repos.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/5.active-links/_readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/5.active-links/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/5.active-links/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/5.active-links/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/5.active-links/modules/About.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/5.active-links/modules/App.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/5.active-links/modules/NavLink.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/5.active-links/modules/Repos.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/5.active-links/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lessons/5.active-links/webpack.config.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lessons/1.setting-up/public/index.html" afterPath="$PROJECT_DIR$/lessons/1.setting-up/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lessons/1.setting-up/src/modules/App.js" afterPath="$PROJECT_DIR$/lessons/1.setting-up/src/modules/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lessons/2.rendering-a-route/public/index.html" afterPath="$PROJECT_DIR$/lessons/2.rendering-a-route/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lessons/2.rendering-a-route/src/modules/About.js" afterPath="$PROJECT_DIR$/lessons/2.rendering-a-route/src/modules/About.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lessons/2.rendering-a-route/src/modules/App.js" afterPath="$PROJECT_DIR$/lessons/2.rendering-a-route/src/modules/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lessons/2.rendering-a-route/src/modules/Repos.js" afterPath="$PROJECT_DIR$/lessons/2.rendering-a-route/src/modules/Repos.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lessons/run" afterPath="$PROJECT_DIR$/lessons/run" />
     </list>
     <ignored path="2.recat-router-grope.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,29 +41,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="run" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lessons/run">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lessons/5.active-links/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-              <folding>
-                <element signature="e#237#275#0" expanded="false" />
-                <element signature="e#302#702#0" expanded="false" />
-                <element signature="e#475#682#0" expanded="false" />
-                <element signature="e#1079#1561#0" expanded="false" />
-                <element signature="e#1545#1555#0" expanded="false" />
-                <element signature="e#1570#1606#0" expanded="false" />
-                <marker date="1471920340808" expanded="false" signature="778:1564" placeholder="{...}" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="About.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lessons/4.nested-routes/src/modules/About.js">
+        <entry file="file://$PROJECT_DIR$/lessons/5.active-links/src/modules/About.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+            <state relative-caret-position="56">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lessons/5.active-links/src/modules/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="56">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NavLink.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lessons/5.active-links/src/modules/NavLink.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -94,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lessons/4.nested-routes/src/modules/App.js">
+      <file leaf-file-name="Repos.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lessons/5.active-links/src/modules/Repos.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+            <state relative-caret-position="280">
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -110,7 +99,7 @@
         <entry file="file://$PROJECT_DIR$/lessons/4.nested-routes/src/modules/Repos.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="392">
-              <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+              <caret line="14" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="2" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -118,21 +107,58 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lessons/4.nested-routes/public/index.html">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lessons/4.nested-routes/src/modules/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+            <state relative-caret-position="336">
+              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="run" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lessons/run">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+              <folding>
+                <element signature="e#237#275#0" expanded="false" />
+                <element signature="e#302#702#0" expanded="false" />
+                <element signature="e#319#418#0" expanded="false" />
+                <element signature="e#475#682#0" expanded="false" />
+                <element signature="e#565#678#0" expanded="false" />
+                <element signature="e#778#1564#0" expanded="false" />
+                <element signature="e#840#1050#0" expanded="false" />
+                <element signature="e#930#1043#0" expanded="false" />
+                <element signature="e#1079#1561#0" expanded="false" />
+                <element signature="e#1130#1218#0" expanded="false" />
+                <element signature="e#1277#1499#0" expanded="false" />
+                <element signature="e#1368#1490#0" expanded="false" />
+                <element signature="e#1545#1555#0" expanded="false" />
+                <element signature="e#1570#1606#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webpack.common.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lessons/webpack.common.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lessons/4.nested-routes/src/index.js">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lessons/5.active-links/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
+            <state relative-caret-position="280">
+              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -146,11 +172,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lessons/12.navigating/server.js" />
-        <option value="$PROJECT_DIR$/lessons/12.navigating/package.json" />
-        <option value="$PROJECT_DIR$/lessons/12.navigating/webpack.config.js" />
-        <option value="$PROJECT_DIR$/lessons/11.productionish-server/webpack.config.js" />
-        <option value="$PROJECT_DIR$/lessons/12.navigating/index.js" />
         <option value="$PROJECT_DIR$/lessons/12.navigating/modules/Repos.js" />
         <option value="$PROJECT_DIR$/lessons/12.navigating/public/index.html" />
         <option value="$PROJECT_DIR$/lessons/13.server-rendering/webpack.config.js" />
@@ -195,8 +216,13 @@
         <option value="$PROJECT_DIR$/lessons/4.nested-routes/src/modules/About.js" />
         <option value="$PROJECT_DIR$/lessons/4.nested-routes/src/modules/Repos.js" />
         <option value="$PROJECT_DIR$/lessons/4.nested-routes/src/modules/App.js" />
-        <option value="$PROJECT_DIR$/lessons/run" />
         <option value="$PROJECT_DIR$/lessons/4.nested-routes/src/index.js" />
+        <option value="$PROJECT_DIR$/lessons/5.active-links/src/index.js" />
+        <option value="$PROJECT_DIR$/lessons/5.active-links/src/modules/App.js" />
+        <option value="$PROJECT_DIR$/lessons/5.active-links/src/modules/About.js" />
+        <option value="$PROJECT_DIR$/lessons/5.active-links/src/modules/Repos.js" />
+        <option value="$PROJECT_DIR$/lessons/run" />
+        <option value="$PROJECT_DIR$/lessons/5.active-links/public/index.html" />
       </list>
     </option>
   </component>
@@ -309,7 +335,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="4.nested-routes" />
+              <option name="myItemId" value="5.active-links" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -328,58 +354,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="4.nested-routes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2.recat-router-grope" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2.recat-router-grope" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lessons" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4.nested-routes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2.recat-router-grope" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2.recat-router-grope" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lessons" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4.nested-routes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -398,28 +372,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="3.navigating-with-link" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2.recat-router-grope" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2.recat-router-grope" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lessons" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="3.navigating-with-link" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -549,7 +501,7 @@
       <workItem from="1471744235528" duration="3987000" />
       <workItem from="1471784230411" duration="7355000" />
       <workItem from="1471836481626" duration="18557000" />
-      <workItem from="1471919081291" duration="1475000" />
+      <workItem from="1471919081291" duration="2097000" />
     </task>
     <task id="LOCAL-00001" summary="local server run">
       <created>1471714448949</created>
@@ -663,11 +615,18 @@
       <option name="project" value="LOCAL" />
       <updated>1471858203134</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="format each lesson in lessons directory of 1,2,3,4 and run">
+      <created>1471920603452</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1471920603452</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41965000" />
+    <option name="totallyTimeSpent" value="42587000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -684,6 +643,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14657612" sideWeight="0.49222797" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14657612" sideWeight="0.507772" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22406639" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" show_stripe_button="true" weight="0.32993776" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="862" y="178" width="674" height="445" />
@@ -693,7 +653,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14035088" sideWeight="0.5041494" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.39937758" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="717" y="221" width="1040" height="385" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -741,7 +700,8 @@
     <MESSAGE value="begin to review and format" />
     <MESSAGE value="run each lesson in lessons directory" />
     <MESSAGE value="run each lesson in lessons directory of 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="run each lesson in lessons directory of 2" />
+    <MESSAGE value="format each lesson in lessons directory of 1,2,3,4 and run" />
+    <option name="LAST_COMMIT_MESSAGE" value="format each lesson in lessons directory of 1,2,3,4 and run" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -750,31 +710,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lessons/14.whats-next/server.js" />
-    <entry file="file://$PROJECT_DIR$/lessons/14.whats-next/webpack.config.js" />
-    <entry file="file://$PROJECT_DIR$/lessons/14.whats-next/_readme.md" />
-    <entry file="file://$PROJECT_DIR$/lessons/14.whats-next/webpack.server.config.js" />
-    <entry file="file://$PROJECT_DIR$/lessons/13.server-rendering/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="11" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/13.server-rendering/public/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/12.navigating/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="16" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lessons/13.server-rendering/server.bundle.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -826,13 +761,6 @@
     <entry file="file://$PROJECT_DIR$/lessons/2.rendering-a-route/_readme.md" />
     <entry file="file://$PROJECT_DIR$/lessons/2.rendering-a-route/webpack.config.js" />
     <entry file="file://$PROJECT_DIR$/lessons/2.rendering-a-route/learn.md" />
-    <entry file="file://$PROJECT_DIR$/lessons/webpack.common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lessons/1.setting-up/webpack.config.js" />
     <entry file="file://$PROJECT_DIR$/lessons/1.setting-up/_.md" />
     <entry file="file://$PROJECT_DIR$/lessons/3.navigating-with-link/webpack.config.js" />
@@ -844,6 +772,7 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="711">
             <caret line="71" column="18" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -860,6 +789,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="6" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -871,6 +801,7 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="347">
             <caret line="108" column="3" selection-start-line="108" selection-start-column="3" selection-end-line="108" selection-end-column="3" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -972,26 +903,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/run">
+    <entry file="file://$PROJECT_DIR$/lessons/5.active-links/public/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-          <folding>
-            <element signature="e#237#275#0" expanded="false" />
-            <element signature="e#302#702#0" expanded="false" />
-            <element signature="e#475#682#0" expanded="false" />
-            <element signature="e#1079#1561#0" expanded="false" />
-            <element signature="e#1545#1555#0" expanded="false" />
-            <element signature="e#1570#1606#0" expanded="false" />
-            <marker date="1471920340808" expanded="false" signature="778:1564" placeholder="{...}" />
-          </folding>
+        <state relative-caret-position="56">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lessons/4.nested-routes/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <caret line="5" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/4.nested-routes/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="55" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -999,17 +930,17 @@
     <entry file="file://$PROJECT_DIR$/lessons/4.nested-routes/src/modules/About.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <caret line="0" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="2" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/4.nested-routes/src/modules/Repos.js">
+    <entry file="file://$PROJECT_DIR$/lessons/5.active-links/src/modules/NavLink.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        <state relative-caret-position="196">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
@@ -1018,18 +949,93 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lessons/4.nested-routes/src/modules/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        <state relative-caret-position="336">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/4.nested-routes/src/index.js">
+    <entry file="file://$PROJECT_DIR$/lessons/5.active-links/src/modules/About.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
-          <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/4.nested-routes/src/modules/Repos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="14" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/5.active-links/src/modules/Repos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/5.active-links/src/modules/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/5.active-links/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/webpack.common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/run">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="e#237#275#0" expanded="false" />
+            <element signature="e#302#702#0" expanded="false" />
+            <element signature="e#319#418#0" expanded="false" />
+            <element signature="e#475#682#0" expanded="false" />
+            <element signature="e#565#678#0" expanded="false" />
+            <element signature="e#778#1564#0" expanded="false" />
+            <element signature="e#840#1050#0" expanded="false" />
+            <element signature="e#930#1043#0" expanded="false" />
+            <element signature="e#1079#1561#0" expanded="false" />
+            <element signature="e#1130#1218#0" expanded="false" />
+            <element signature="e#1277#1499#0" expanded="false" />
+            <element signature="e#1368#1490#0" expanded="false" />
+            <element signature="e#1545#1555#0" expanded="false" />
+            <element signature="e#1570#1606#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/5.active-links/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
           <folding />
         </state>
       </provider>

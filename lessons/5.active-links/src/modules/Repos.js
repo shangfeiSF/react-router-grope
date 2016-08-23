@@ -1,13 +1,14 @@
 import React from 'react'
-import {Link} from 'react-router'
+
+import NavLink from './NavLink'
 
 export default React.createClass({
   render() {
     return (
       <div>
-        <h1>About</h1>
+        <h2>Repos Page</h2>
         <ul role="nav">
-          <li><Link to="/">Home</Link></li>
+          <li><NavLink to="/">Back to Home Page</NavLink></li>
         </ul>
       </div>
     )
