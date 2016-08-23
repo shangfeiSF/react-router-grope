@@ -5,9 +5,9 @@ export default React.createClass({
   render() {
     return (
       <div>
-        <h1>Repos</h1>
+        <h2>Repos Page</h2>
         <ul role="nav">
-          <li><Link to="/">Home</Link></li>
+          <li><Link to="/">Back to Home Page</Link></li>
         </ul>
       </div>
     )

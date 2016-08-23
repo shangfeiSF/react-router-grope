@@ -5,12 +5,10 @@ export default React.createClass({
   render() {
     return (
       <div>
-        <h1>React Router Lessons</h1>
+        <h2>About Page</h2>
         <ul role="nav">
-          <li><Link to="/about">About</Link></li>
-          <li><Link to="/repos">Repos</Link></li>
+          <li><Link to="/">Back to Home Page</Link></li>
         </ul>
-        {this.props.children}
       </div>
     )
   }

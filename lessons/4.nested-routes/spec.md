@@ -120,7 +120,3 @@ inside of Applications, boxes inside of boxes.
 What happens if you move the `About` route outside of `App`?
 
 Okay, now put it back.
-
----
-
-[Next: Active Links](../05-active-links/)

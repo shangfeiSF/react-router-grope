@@ -70,7 +70,3 @@ export default React.createClass({
 
 Now visit [http://localhost:8080](http://localhost:8080) and click the links, click back, click
 forward. It works!
-
----
-
-[Next: Nested Routes](../4.nested-routes/)

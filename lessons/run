@@ -9,22 +9,36 @@ var Promise = require('bluebird')
 
 Promise.promisifyAll(fs)
 
-
-var options = nopt({
+var knowns = {
   'env': String,
   'input': String
-}, {
-  'dev': ['--env', 'development'],
-  'pro': ['--env', 'production'],
-  'i': ['--input']
-}, process.argv, 2)
+}
+var shorts = (function () {
+  var shorts = {
+    'dev': ['--env', 'development'],
+    'pro': ['--env', 'production'],
+    'i': ['--input']
+  }
+
+  fs.readdirSync(process.cwd()).forEach(function (dir) {
+    var state = fs.statSync(path.join(process.cwd(), dir))
+    if (state.isDirectory()) {
+      var cmd = 'i' + dir.split('\.').shift()
+      shorts[cmd] = ['--input']
+      shorts[cmd].push(dir)
+    }
+  })
+
+  return shorts
+})()
+var options = nopt(knowns, shorts, process.argv, 2)
 
 if (options.input) {
   fs.readdirAsync(process.cwd())
     .filter(function (dir) {
       return fs.statAsync(path.join(process.cwd(), dir))
-        .then(function (stat) {
-          return (dir === options.input || dir === options.input.slice(0, -1)) && stat.isDirectory()
+        .then(function (state) {
+          return (dir === options.input || dir === options.input.slice(0, -1)) && state.isDirectory()
         })
     })
 
@@ -32,11 +46,11 @@ if (options.input) {
       var dir = dirs.pop()
 
       var commands = {
-        env: ['webpack-dev-server ', '--inline ', '--content-base', ' public'].join('')
+        env: ['webpack-dev-server ', '--inline ', '--content-base', ' public']
       }
 
       if (!options.env || options.env === 'development') {
-        cp.execSync(commands.env, {
+        cp.execSync(commands.env.concat(['--config', '../webpack.common.js']).join(' '), {
           cwd: path.join(process.cwd(), dir),
           stdio: [process.stdin, process.stdout, process.stderr]
         })
@@ -49,4 +63,3 @@ if (options.input) {
 else {
   console.log('Error Input'.red)
 }
-
