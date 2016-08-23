@@ -1,23 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a783cc9-3ac9-42f6-966f-0d1982a0f42c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/active-links/src/assets/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/active-links/src/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/active-links/src/modules/About.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/active-links/src/modules/App.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/active-links/src/modules/Index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/active-links/src/modules/User.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/active-links/src/modules/Users.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/active-links/src/modules/UsersIndex.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main/active-links/app.js" afterPath="" />
+    <list default="true" id="6a783cc9-3ac9-42f6-966f-0d1982a0f42c" name="Default" comment="learn main and format main">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/active-links/src/modules/routes.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/main/animations/app.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/main/animations/app.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/active-links/index.html" afterPath="$PROJECT_DIR$/main/active-links/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/animations/app.css" afterPath="$PROJECT_DIR$/main/animations/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/animations/app.js" afterPath="$PROJECT_DIR$/main/animations/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/animations/index.html" afterPath="$PROJECT_DIR$/main/animations/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/withExampleBasename.js" afterPath="$PROJECT_DIR$/main/withExampleBasename.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/active-links/src/index.js" afterPath="$PROJECT_DIR$/main/active-links/src/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
     </list>
     <ignored path="2.recat-router-grope.iws" />
@@ -39,130 +28,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/active-links/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-                <element signature="e#457#835#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="About.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/active-links/src/modules/About.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/active-links/src/modules/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-                <element signature="e#175#705#0" expanded="false" />
-                <element signature="e#757#959#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/active-links/src/modules/Index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-              <folding>
-                <element signature="e#51#110#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/active-links/src/modules/User.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Users.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/active-links/src/modules/Users.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UsersIndex.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/active-links/src/modules/UsersIndex.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webpack.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            <state relative-caret-position="335">
+              <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
               <folding>
-                <element signature="e#655#789#0" expanded="false" />
-                <element signature="e#802#993#0" expanded="false" />
-                <element signature="e#817#989#0" expanded="false" />
-                <element signature="e#825#914#0" expanded="false" />
-                <element signature="e#922#983#0" expanded="false" />
-                <element signature="e#1007#1113#0" expanded="false" />
-                <element signature="e#1020#1109#0" expanded="false" />
-                <element signature="e#1147#1172#0" expanded="false" />
-                <element signature="e#1186#1372#0" expanded="false" />
-                <element signature="e#1276#1367#0" expanded="false" />
+                <element signature="e#633#767#0" expanded="false" />
+                <element signature="e#780#971#0" expanded="false" />
+                <element signature="e#795#967#0" expanded="false" />
+                <element signature="e#803#892#0" expanded="false" />
+                <element signature="e#900#961#0" expanded="false" />
+                <element signature="e#985#1091#0" expanded="false" />
+                <element signature="e#998#1087#0" expanded="false" />
+                <element signature="e#1125#1150#0" expanded="false" />
+                <element signature="e#1164#1350#0" expanded="false" />
+                <element signature="e#1254#1345#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server.js">
+      <file leaf-file-name="routes.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main/active-links/src/modules/routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="16" column="17" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="17" />
-              <folding>
-                <element signature="e#111#131#0" expanded="false" />
-                <element signature="e#314#343#0" expanded="false" />
-                <element signature="e#1037#1165#0" expanded="false" />
-                <element signature="e#1117#1160#0" expanded="false" />
-                <element signature="e#1192#1333#0" expanded="false" />
-                <element signature="e#1228#1328#0" expanded="false" />
-                <element signature="e#1368#1446#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="168">
+              <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -175,8 +67,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lessons/11.productionish-server/src/modules/Repos.js" />
-        <option value="$PROJECT_DIR$/lessons/11.productionish-server/src/index.js" />
         <option value="$PROJECT_DIR$/lessons/10.clean-urls/src/modules/App.js" />
         <option value="$PROJECT_DIR$/lessons/12.navigating/server.js" />
         <option value="$PROJECT_DIR$/lessons/12.navigating/public/index.html" />
@@ -218,14 +108,16 @@
         <option value="$PROJECT_DIR$/main/active-links/app.js" />
         <option value="$PROJECT_DIR$/lessons/1.setting-up/src/modules/App.js" />
         <option value="$PROJECT_DIR$/main/withExampleBasename.js" />
-        <option value="$PROJECT_DIR$/main/active-links/src/index.js" />
         <option value="$PROJECT_DIR$/main/active-links/src/modules/App.js" />
         <option value="$PROJECT_DIR$/main/active-links/src/modules/About.js" />
         <option value="$PROJECT_DIR$/main/active-links/src/modules/Index.js" />
         <option value="$PROJECT_DIR$/main/active-links/src/modules/User.js" />
         <option value="$PROJECT_DIR$/main/active-links/src/modules/Users.js" />
         <option value="$PROJECT_DIR$/main/active-links/src/modules/UsersIndex.js" />
+        <option value="$PROJECT_DIR$/main/animations/src/index.js" />
+        <option value="$PROJECT_DIR$/main/active-links/src/index.js" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/main/active-links/src/modules/routes.js" />
       </list>
     </option>
   </component>
@@ -351,61 +243,55 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2.recat-router-grope" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2.recat-router-grope" />
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lessons" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2.recat-router-grope" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2.recat-router-grope" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lessons" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1.setting-up" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2.recat-router-grope" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2.recat-router-grope" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lessons" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1.setting-up" />
+              <option name="myItemId" value="animations" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2.recat-router-grope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2.recat-router-grope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="animations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2.recat-router-grope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2.recat-router-grope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="local" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -517,7 +403,7 @@
       <workItem from="1471784230411" duration="7355000" />
       <workItem from="1471836481626" duration="18557000" />
       <workItem from="1471919081291" duration="10861000" />
-      <workItem from="1471932472097" duration="9095000" />
+      <workItem from="1471932472097" duration="9574000" />
     </task>
     <task id="LOCAL-00001" summary="local server run">
       <created>1471714448949</created>
@@ -708,11 +594,18 @@
       <option name="project" value="LOCAL" />
       <updated>1471935804017</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="learn main and format main">
+      <created>1471942107793</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1471942107793</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60446000" />
+    <option name="totallyTimeSpent" value="60925000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -798,7 +691,8 @@
     <MESSAGE value="fixed production command in 1-10" />
     <MESSAGE value="sepc optimization plugins" />
     <MESSAGE value="sepc optimization plugins and support set port of localhost" />
-    <option name="LAST_COMMIT_MESSAGE" value="sepc optimization plugins and support set port of localhost" />
+    <MESSAGE value="learn main and format main" />
+    <option name="LAST_COMMIT_MESSAGE" value="learn main and format main" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -807,27 +701,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lessons/12.navigating/src/modules/Home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/12.navigating/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="23" column="21" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/13.server-rendering/server.bundle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1008">
-          <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lessons/13.server-rendering/package.json" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
@@ -855,22 +728,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
           <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/13.server-rendering/src/modules/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/13.server-rendering/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
           <folding />
         </state>
       </provider>
@@ -1133,14 +990,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-            <element signature="e#328#744#0" expanded="false" />
-            <element signature="e#772#860#0" expanded="false" />
-            <element signature="e#888#970#0" expanded="false" />
-            <element signature="e#998#1079#0" expanded="false" />
-            <element signature="e#1099#1356#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1148,13 +998,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
           <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="8" />
-          <folding>
-            <element signature="e#6#70#0" expanded="false" />
-            <element signature="e#87#146#0" expanded="false" />
-            <element signature="e#184#203#0" expanded="false" />
-            <element signature="e#220#276#0" expanded="false" />
-            <element signature="e#314#333#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1230,6 +1074,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main/animations/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#340#756#0" expanded="false" />
+            <element signature="e#784#872#0" expanded="false" />
+            <element signature="e#900#982#0" expanded="false" />
+            <element signature="e#1010#1091#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/active-links/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main/active-links/src/modules/Users.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1243,17 +1109,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/active-links/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-            <element signature="e#457#835#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1281,22 +1136,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/13.server-rendering/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/13.server-rendering/src/modules/Repos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#137#1245#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        <state relative-caret-position="335">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
           <folding>
-            <element signature="e#655#789#0" expanded="false" />
-            <element signature="e#802#993#0" expanded="false" />
-            <element signature="e#817#989#0" expanded="false" />
-            <element signature="e#825#914#0" expanded="false" />
-            <element signature="e#922#983#0" expanded="false" />
-            <element signature="e#1007#1113#0" expanded="false" />
-            <element signature="e#1020#1109#0" expanded="false" />
-            <element signature="e#1147#1172#0" expanded="false" />
-            <element signature="e#1186#1372#0" expanded="false" />
-            <element signature="e#1276#1367#0" expanded="false" />
+            <element signature="e#633#767#0" expanded="false" />
+            <element signature="e#780#971#0" expanded="false" />
+            <element signature="e#795#967#0" expanded="false" />
+            <element signature="e#803#892#0" expanded="false" />
+            <element signature="e#900#961#0" expanded="false" />
+            <element signature="e#985#1091#0" expanded="false" />
+            <element signature="e#998#1087#0" expanded="false" />
+            <element signature="e#1125#1150#0" expanded="false" />
+            <element signature="e#1164#1350#0" expanded="false" />
+            <element signature="e#1254#1345#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/13.server-rendering/src/modules/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/active-links/src/modules/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
