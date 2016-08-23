@@ -55,7 +55,3 @@ a `NavLink` and it will make its way down to the `Link`:
 ```js
 <li><NavLink to="/" onlyActiveOnIndex={true}>Home</NavLink></li>
 ```
-
----
-
-[Next: Clean URLs](../10-clean-urls/)
