@@ -61,7 +61,3 @@ starts at a deep path, won't be able to find the files.
 
 Stop your server if it's running, then `npm start` again. Look at those
 clean URLs :)
-
----
-
-[Next: Production-ish Server](../11-productionish-server/)
