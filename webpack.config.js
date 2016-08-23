@@ -8,10 +8,14 @@ var mainDir = path.join(__dirname, 'main')
 var makeEntry = function () {
   var entry = {}
   fs.readdirSync(mainDir)
+    // TODO: delete at final
+    .filter(function (dir) {
+      return dir == 'active-links' || dir == 'animations'
+    })
     .reduce(function (entry, dir) {
       var isDirectory = fs.statSync(path.join(mainDir, dir)).isDirectory()
 
-      isDirectory && (entry[dir] = path.join(mainDir, dir, 'app.js'));
+      isDirectory && (entry[dir] = path.join(mainDir, dir, 'src', 'index.js'));
 
       return entry
     }, entry)
