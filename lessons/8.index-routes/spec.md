@@ -81,7 +81,3 @@ Index routes can twist people's brains up sometimes. Hopefully it will
 sink in with a bit more time. Just think about a web server that looks
 for `index.html` when you're at `/`. Same idea, React Router looks for
 an index route if a route's path matches exactly.
-
----
-
-[Next: Index Links](../09-index-links/)
