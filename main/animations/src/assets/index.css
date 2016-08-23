@@ -1,7 +1,15 @@
-.page {
+.indexPage, .contentPage {
     position: absolute;
     height: 400px;
     width: 400px;
+}
+
+.indexPage {
+    color: #aaa
+}
+
+.contentPage {
+    color: red
 }
 
 .example-enter {
