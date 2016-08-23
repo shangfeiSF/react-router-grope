@@ -1,7 +1,7 @@
 var webpack = require('webpack')
 
 module.exports = {
-  entry: './index.js',
+  entry: './src/index.js',
 
   output: {
     path: 'public',
@@ -19,9 +19,9 @@ module.exports = {
     ]
   },
 
-  plugins: process.env.NODE_ENV === 'production' ? [
+  plugins: [
     new webpack.optimize.DedupePlugin(),
     new webpack.optimize.OccurrenceOrderPlugin(),
     new webpack.optimize.UglifyJsPlugin()
-  ] : [],
+  ]
 }

@@ -8,20 +8,6 @@ module.exports = {
     filename: 'server.bundle.js'
   },
 
-  target: 'node',
-
-  externals: fs.readdirSync(path.resolve(__dirname, '../../node_modules')).concat([
-    'react-dom/server', 'react/addons',
-  ]).reduce(function (ext, mod) {
-    ext[mod] = 'commonjs ' + mod
-    return ext
-  }, {}),
-
-  node: {
-    __filename: true,
-    __dirname: true
-  },
-
   module: {
     loaders: [
       {
@@ -30,5 +16,19 @@ module.exports = {
         loader: 'babel-loader?presets[]=es2015&presets[]=react'
       }
     ]
+  },
+
+  externals: fs.readdirSync(path.resolve(__dirname, '../../node_modules'))
+    .concat(['react-dom/server', 'react/addons'])
+    .reduce(function (ext, mod) {
+      ext[mod] = 'commonjs ' + mod
+      return ext
+    }, {}),
+
+  target: 'node',
+
+  node: {
+    __filename: true,
+    __dirname: true
   }
 }

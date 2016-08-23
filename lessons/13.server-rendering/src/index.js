@@ -8,4 +8,3 @@ var content = <Router routes={routes} history={browserHistory}/>
 var root = document.getElementById('app')
 
 render(content, root)
-

@@ -36,6 +36,7 @@ var options = nopt(knowns, shorts, process.argv, 2)
 var extend = require('./webpack.extend')
 var serverOptions = extend.serverOptions
 var webpackConfigPaths = extend.webpackConfigPaths
+var productionCommands = extend.productionCommands
 
 if (options.input) {
   fs.readdirAsync(process.cwd())
@@ -50,22 +51,20 @@ if (options.input) {
       var dir = dirs.pop()
 
       var commands = {
-        development: ['webpack-dev-server ', '--inline ', '--content-base', ' public'],
-        production: ['webpack', '&&', 'node server.js']
+        development: ['webpack-dev-server ', '--inline ', '--content-base', ' public/']
       }
 
       var cmd = null
+      var index = dir.split('\.').shift()
 
       if (!options.env || options.env === 'development') {
-        var index = dir.split('\.').shift()
-
         var configPath = webpackConfigPaths[index] ? webpackConfigPaths[index] : '../webpack.common.js'
         cmd = commands.development.concat(['--config', configPath])
 
         if (serverOptions[index]) cmd = cmd.concat(serverOptions[index])
       }
       else if (options.env === 'production') {
-        cmd = commands.production
+        cmd = productionCommands[index] || ''
       }
 
       cp.execSync(cmd.join(' '), {

@@ -1,11 +1,11 @@
-var path = require('path')
-var express = require('express')
-var compression = require('compression')
-
 import React from 'react'
 import {renderToString} from 'react-dom/server'
 import {match, RouterContext} from 'react-router'
 import routes from './modules/routes'
+
+var path = require('path')
+var express = require('express')
+var compression = require('compression')
 
 var app = express()
 
@@ -20,7 +20,7 @@ app.get('*', (req, res) => {
     }
     else if (redirect) {
       res.redirect(redirect.pathname + redirect.search)
-    } 
+    }
     else if (props) {
       const appHtml = renderToString(<RouterContext {...props}/>)
       res.send(renderPage(appHtml))
@@ -33,13 +33,19 @@ app.get('*', (req, res) => {
 
 function renderPage(appHtml) {
   return `
-    <!doctype html public="storage">
-    <html>
-    <meta charset=utf-8/>
-    <title>My First React Router App</title>
-    <link rel=stylesheet href=/index.css>
+    <!doctype html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>13.server-rendering</title>
+        <link rel="stylesheet" href="/index.css">
+    </head>
+    <body>
+    <h1>13.server-rendering</h1>
     <div id=app>${appHtml}</div>
     <script src="/bundle.js"></script>
+    </body>
+    </html>
    `
 }
 
