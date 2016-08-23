@@ -51,7 +51,3 @@ import NavLink from './NavLink'
 
 Notice how both the `/repos` link up top and the individual repo links are
 both active? When child routes are active, so are the parents.
-
----
-
-[Next: Index Routes](../08-index-routes/)

@@ -87,7 +87,3 @@ Now go test your links out. Note that the parameter name in the route
 `userName` are available on `this.props.params` of your component. You
 should probably add some prop types to help others and yourself out
 later.
-
----
-
-[Next: More Nesting](../07-more-nesting/)

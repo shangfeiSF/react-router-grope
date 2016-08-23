@@ -15,6 +15,7 @@ export default React.createClass({
           <li><NavLink to="/repos/facebook/React" activeClassName={activeClassName} activeStyle={activeStyle}>React</NavLink> </li>
           <li><NavLink to="/repos/reactjs/React-router" activeClassName={activeClassName} activeStyle={activeStyle}>React Router</NavLink> </li>
         </ul>
+        {this.props.children}
       </div>
     )
   }

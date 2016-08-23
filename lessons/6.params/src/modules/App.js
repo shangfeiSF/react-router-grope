@@ -9,7 +9,7 @@ export default React.createClass({
 
     return (
       <div>
-        <h1>Home Page</h1>
+        <h2>Home Page</h2>
         <ul role="nav">
           <li><NavLink to="/about" activeClassName={activeClassName} activeStyle={activeStyle}>About</NavLink></li>
           <li><NavLink to="/repos" activeClassName={activeClassName} activeStyle={activeStyle}>Repos</NavLink></li>
