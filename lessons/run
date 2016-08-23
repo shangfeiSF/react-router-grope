@@ -64,13 +64,17 @@ if (options.input) {
         if (serverOptions[index]) cmd = cmd.concat(serverOptions[index])
       }
       else if (options.env === 'production') {
-        cmd = productionCommands[index] || ''
+        cmd = productionCommands[index] || []
       }
 
-      cp.execSync(cmd.join(' '), {
-        cwd: path.join(process.cwd(), dir),
-        stdio: [process.stdin, process.stdout, process.stderr]
-      })
+      if (cmd.length) {
+        cp.execSync(cmd.join(' '), {
+          cwd: path.join(process.cwd(), dir),
+          stdio: [process.stdin, process.stdout, process.stderr]
+        })
+      } else {
+        console.log('No Production Server'.red)
+      }
     })
 }
 else {
