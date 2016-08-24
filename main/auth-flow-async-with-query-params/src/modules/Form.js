@@ -5,8 +5,14 @@ export default withRouter(
   React.createClass({
     getInitialState() {
       return {
-        value: ''
+        token: '12345'
       }
+    },
+
+    handlerOnChange(event) {
+      this.setState({
+        token: event.target.value
+      })
     },
 
     handlerOnSubmit(event) {
@@ -15,29 +21,33 @@ export default withRouter(
       this.props.router.push({
         pathname: '/page',
         query: {
-          qsparam: this.state.value
+          token: this.state.token
         }
-      })
-    },
-
-    handlerOnChange(event) {
-      this.setState({
-        value: event.target.value
       })
     },
 
     render() {
       return (
         <form onSubmit={this.handlerOnSubmit}>
-          <p>Token is
-            <em>pancakes</em>
-          </p>
+          <div className="content">
+            Token is 12345
+          </div>
 
-          <input type="text" value={this.state.value} onChange={this.handlerOnChange}/>
-          <button type="submit">Submit the thing</button>
+          <div className="content">
+            <label>Your token:</label>
+            <input type="text" value={this.state.value} onChange={this.handlerOnChange}/>
+          </div>
 
-          <p><Link to="/page?qsparam=pancakes">Or authenticate via URL</Link></p>
-          <p><Link to="/page?qsparam=bacon">Or try failing to authenticate via URL</Link></p>
+          <div className="content">
+            <button type="submit">Submit your token</button>
+          </div>
+
+          <div className="content">
+            <ul>
+              <li><Link to="/page?token=12345">Link to /page?token=12345</Link></li>
+              <li><Link to="/page?token=foo">Link to /page?token=foo</Link></li>
+            </ul>
+          </div>
         </form>
       )
     }

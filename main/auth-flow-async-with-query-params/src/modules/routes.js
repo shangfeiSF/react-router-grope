@@ -9,8 +9,8 @@ import ErrorPage from './ErrorPage'
 function handlerOnEnter(nextState, replace, next) {
   const query = nextState.location.query
 
-  if (query.qsparam) {
-    serverAuth(query.qsparam).then(
+  if (query.token) {
+    mockServer(query.token).then(
       () => next(),
       () => {
         replace('/error')
@@ -24,15 +24,11 @@ function handlerOnEnter(nextState, replace, next) {
   }
 }
 
-function serverAuth(authToken) {
+function mockServer(token) {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      if (authToken === 'pancakes') {
-        resolve('authenticated')
-      } else {
-        reject('nope')
-      }
-    }, 200)
+      token === '12345' ? resolve() : reject()
+    }, 1000)
   })
 }
 

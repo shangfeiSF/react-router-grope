@@ -11,7 +11,7 @@ import auth from './auth'
 
 // onEnter(nextState, replace, callback?)
 // https://github.com/reactjs/react-router/blob/master/docs/API.md#onenternextstate-replace-callback
-function handlerOnEnter(nextState, replace, callback) {
+function handlerOnEnter(nextState, replace, next) {
   if (!auth.loggedIn()) {
     // replace(location, deprecatedPathname, deprecatedQuery) {……}
     replace({
@@ -21,7 +21,7 @@ function handlerOnEnter(nextState, replace, callback) {
       }
     })
   }
-  callback && callback()
+  next && next()
 }
 
 export default (
