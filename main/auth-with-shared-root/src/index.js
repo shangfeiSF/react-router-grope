@@ -6,9 +6,9 @@ import withExampleBasename from '../../withExampleBasename'
 
 import './assets/index.css'
 
-import routes from './modules/routes'
+import plainRoutes from './modules/plainRoutes'
 
-var content = <Router routes={routes} history={withExampleBasename(browserHistory, __dirname.split('\\')[1])}/>
+var content = <Router routes={plainRoutes} history={withExampleBasename(browserHistory, __dirname.split('\\')[1])}/>
 var root = document.getElementById('example')
 
 render(content, root)

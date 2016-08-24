@@ -7,12 +7,10 @@
     margin: 5px;
 }
 
-.error {
-    color: red;
-    margin: 10px;
+.public {
+    color: green;
 }
 
-.tip {
-    color: #a5a5a5;
-    margin: 10px;
+.protected {
+    color: red;
 }

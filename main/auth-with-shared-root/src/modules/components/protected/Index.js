@@ -1,16 +1,11 @@
 import React from 'react'
 
-import auth from '../utils/auth'
-
 export default React.createClass({
-  componentDidMount() {
-    auth.logout()
-  },
-
   render() {
     return (
       <div className="content">
-        <p>logged out!</p>
+        <h2>Index Page</h2>
+        <p className="protected">This page will be shown only logged in.</p>
       </div>
     )
   }

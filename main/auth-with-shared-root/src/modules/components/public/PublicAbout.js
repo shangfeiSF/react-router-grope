@@ -4,8 +4,8 @@ export default React.createClass({
   render() {
     return (
       <div className="content">
-        <h2>About</h2>
-        <p>This is about Page</p>
+        <h2>Public About Page</h2>
+        <p className="public">This page will be always shown.</p>
       </div>
     )
   }

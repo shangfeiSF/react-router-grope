@@ -1,16 +1,16 @@
 import auth from './auth'
 
 export default {
-  login(nextState, replace) {
+  needLogin(nextState, replace) {
     if (!auth.loggedIn()) {
       replace({
-        pathname: '/login',
+        pathname: '/public/login',
         state: {_next: nextState.location.pathname}
       })
     }
   },
 
-  dashboard(nextState, replace){
+  toHome(nextState, replace){
     if (auth.loggedIn()) {
       replace('/')
     }
