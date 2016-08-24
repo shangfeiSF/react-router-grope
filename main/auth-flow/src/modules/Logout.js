@@ -8,6 +8,10 @@ export default React.createClass({
   },
 
   render() {
-    return <p>You are now logged out</p>
+    return (
+      <div className="content">
+        <p>logged out!</p>
+      </div>
+    )
   }
 })

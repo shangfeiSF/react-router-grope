@@ -9,13 +9,19 @@ import Logout from './Logout'
 
 import auth from './auth'
 
-function requireAuth(nextState, replace) {
+// onEnter(nextState, replace, callback?)
+// https://github.com/reactjs/react-router/blob/master/docs/API.md#onenternextstate-replace-callback
+function handlerOnEnter(nextState, replace, callback) {
   if (!auth.loggedIn()) {
+    // replace(location, deprecatedPathname, deprecatedQuery) {……}
     replace({
       pathname: '/login',
-      state: {nextPathname: nextState.location.pathname}
+      state: {
+        _next: nextState.location.pathname
+      }
     })
   }
+  callback && callback()
 }
 
 export default (
@@ -23,6 +29,6 @@ export default (
     <Route path="login" component={Login}/>
     <Route path="logout" component={Logout}/>
     <Route path="about" component={About}/>
-    <Route path="dashboard" component={Dashboard} onEnter={requireAuth}/>
+    <Route path="dashboard" component={Dashboard} onEnter={handlerOnEnter}/>
   </Route>
 )

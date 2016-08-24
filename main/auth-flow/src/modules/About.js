@@ -2,6 +2,11 @@ import React from 'react'
 
 export default React.createClass({
   render() {
-    return <h1>About</h1>
+    return (
+      <div className="content">
+        <h2>About</h2>
+        <p>This is about Page</p>
+      </div>
+    )
   }
 })

@@ -10,7 +10,7 @@ var makeEntry = function () {
   fs.readdirSync(mainDir)
     // TODO: delete at final
     .filter(function (dir) {
-      return dir == 'active-links' || dir == 'animations'
+      return dir == 'active-links' || dir == 'animations' || dir == 'auth-flow'
     })
     .reduce(function (entry, dir) {
       var isDirectory = fs.statSync(path.join(mainDir, dir)).isDirectory()

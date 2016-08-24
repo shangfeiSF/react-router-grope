@@ -1,49 +1,53 @@
-module.exports = {
-  login(email, pass, cb) {
-    cb = arguments[arguments.length - 1]
-    if (localStorage.token) {
-      if (cb) cb(true)
-      this.onChange(true)
-      return
-    }
-    pretendRequest(email, pass, (res) => {
-      if (res.authenticated) {
-        localStorage.token = res.token
-        if (cb) cb(true)
-        this.onChange(true)
-      } else {
-        if (cb) cb(false)
-        this.onChange(false)
-      }
-    })
+var userInfos = [
+  {
+    email: 'xiaoshao@126.com',
+    password: '123'
   },
+  {
+    email: 'shangfei@126.com',
+    password: '456'
+  }
+]
 
+export default {
   getToken() {
     return localStorage.token
   },
 
-  logout(cb) {
-    delete localStorage.token
-    if (cb) cb()
-    this.onChange(false)
+  update() {
   },
 
   loggedIn() {
     return !!localStorage.token
   },
 
-  onChange() {}
-}
+  login(email, password, callback) {
+    var loggedIn = false
 
-function pretendRequest(email, pass, cb) {
-  setTimeout(() => {
-    if (email === 'joe@example.com' && pass === 'password1') {
-      cb({
-        authenticated: true,
-        token: Math.random().toString(36).substring(7)
-      })
-    } else {
-      cb({ authenticated: false })
+    if (localStorage.token) {
+      loggedIn = true
     }
-  }, 0)
+    else {
+      var exist = userInfos.some(function (info) {
+        return info.email === email && info.password === password
+      })
+
+      if (exist) {
+        localStorage.token = Math.random().toString(36).substring(7)
+        loggedIn = true
+      }
+    }
+
+    callback && callback(loggedIn)
+
+    this.update(loggedIn)
+  },
+
+  logout(callback) {
+    delete localStorage.token
+
+    callback && callback(false)
+    
+    this.update(false)
+  }
 }
