@@ -24,9 +24,9 @@ const App = React.createClass({
               routes.map((item, index) =>
                 <li key={index}>
                   <Link to={item.path || ''} activeClassName="breadcrumb-active" onlyActiveOnIndex={true}>
-                    {item.component.title}
+                    {item.component['breadTitle']}
                   </Link>
-                  {(index + 1) < depth && '\u2192'}
+                  {(index + 1) < depth && '\/'}
                 </li>
               )
             }
@@ -38,7 +38,7 @@ const App = React.createClass({
   }
 })
 
-App.title = 'Home'
+App.breadTitle = 'Home'
 App.path = '/'
 
 export default App

@@ -10,7 +10,7 @@ const Products = React.createClass({
   }
 })
 
-Products.title = 'Products'
+Products.breadTitle = 'Products'
 Products.path = '/products'
 
 export default Products

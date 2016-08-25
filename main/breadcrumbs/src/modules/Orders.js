@@ -10,7 +10,7 @@ const Orders = React.createClass({
   }
 })
 
-Orders.title = 'Orders'
+Orders.breadTitle = 'Orders'
 Orders.path = '/orders'
 
 export default Orders

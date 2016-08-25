@@ -16,12 +16,12 @@ ul.breadcrumbs-list {
 
 ul.breadcrumbs-list li {
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 ul.breadcrumbs-list li a:not(.breadcrumb-active) {
     font-weight: bold;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 ul.breadcrumbs-list li a.breadcrumb-active {
