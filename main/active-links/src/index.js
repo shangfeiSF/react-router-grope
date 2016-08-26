@@ -4,6 +4,7 @@ import {Router, browserHistory} from 'react-router'
 
 import withExampleBasename from '../../withExampleBasename'
 
+import '../../global.css'
 import './assets/index.css'
 
 import routes from './modules/routes'

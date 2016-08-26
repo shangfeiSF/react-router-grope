@@ -21,8 +21,7 @@ var server = express()
 
 var mainDir = path.join(__dirname, 'main')
 
-server.use(express.static(mainDir))
-server.use(express.static(path.join(__dirname, 'local')))
+server.use(express.static('./'))
 server.use(express.static(path.join(__dirname, '__build__')))
 
 server.use(webpackDevMiddleware(webpack(webpackConfig), webpackDevMiddlewareConfig))
