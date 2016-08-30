@@ -1,5 +1,5 @@
 module.exports = {
-  noInfo: true,
+  noInfo: false,
   quiet: false,
   publicPath: '/__build__/',
   headers: {
