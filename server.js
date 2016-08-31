@@ -57,18 +57,13 @@ if (options.hot) {
     },
 
     setup: function (app) {
-      var mainDir = path.join(__dirname, 'main')
-
-      var dirs = fs.readdirSync(mainDir)
-
-      dirs = dirs.filter(function (file) {
-        var stat = fs.statSync(path.join(mainDir, file))
-        return stat.isDirectory()
-      })
-
-      dirs.forEach(function (dir) {
-        app.use(expressUrlrewrite('/main/' + dir + '/*', '/main/' + dir + '/index.html'))
-      })
+      fs.readdirSync(path.join(__dirname, 'main'))
+        .filter(function (file) {
+          return fs.statSync(path.join(__dirname, 'main', file)).isDirectory()
+        })
+        .forEach(function (dir) {
+          app.use(expressUrlrewrite('/main/' + dir + '/*', '/main/' + dir + '/index.html'))
+        })
     },
 
     noInfo: false,
