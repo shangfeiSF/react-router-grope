@@ -45,11 +45,23 @@ module.exports = {
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        loader: 'babel'
+        loader: 'babel-loader'
       },
       {
         test: /\.css$/,
-        loader: 'style!css'
+        loader: "style!css"
+      },
+      {
+        test: /\.less/,
+        loader: 'style-loader!css-loader'
+      },
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        query: {
+          presets: ['react', 'es2015', 'stage-1']
+        },
+        loader: "babel-loader"
       }
     ]
   },
@@ -57,7 +69,8 @@ module.exports = {
   resolve: {
     alias: {
       'react-router': path.join(__dirname, 'node_modules', 'react-router', 'lib')
-    }
+    },
+    extensions: ['', '.js', '.json']
   },
 
   context: __dirname,

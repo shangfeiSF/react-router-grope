@@ -2,7 +2,9 @@
   "name": "react-router-grope",
   "version": "1.0.0",
   "scripts": {
-    "start": "webpack-dev-server --config webpack.hot.config.js --progress --colors"
+    "start": "node server.hot.js",
+    "normal": "node server.normal.js",
+    "build": "webpack --config webpack.normal.js"
   },
   "dependencies": {
     "compression": "^1.6.1",
