@@ -7,7 +7,7 @@ var mainDir = path.join(__dirname, 'main')
 
 var makeEntry = function () {
   var entry = {}
-
+  
   fs.readdirSync(mainDir)
     // TODO: delete at final
     .filter(function (dir) {
@@ -21,11 +21,7 @@ var makeEntry = function () {
     .reduce(function (entry, dir) {
       var isDirectory = fs.statSync(path.join(mainDir, dir)).isDirectory()
 
-      isDirectory && (entry[dir] = [
-        'webpack-dev-server/client?http://localhost:8080/',
-        'webpack/hot/dev-server',
-        path.join(mainDir, dir, 'src', 'index.js')
-      ]);
+      isDirectory && (entry[dir] = path.join(mainDir, dir, 'src', 'index.js'));
 
       return entry
     }, entry)
@@ -85,8 +81,6 @@ module.exports = {
   },
 
   plugins: [
-    new webpack.optimize.CommonsChunkPlugin('shared.js'),
-    new webpack.NoErrorsPlugin(),
-    new webpack.HotModuleReplacementPlugin()
+    new webpack.optimize.CommonsChunkPlugin('shared.js')
   ]
 }
