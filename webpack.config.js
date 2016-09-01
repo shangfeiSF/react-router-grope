@@ -7,7 +7,7 @@ var mainDir = path.join(__dirname, 'main')
 
 var makeEntry = function () {
   var entry = {}
-  
+
   fs.readdirSync(mainDir)
     // TODO: delete at final
     .filter(function (dir) {
@@ -16,7 +16,8 @@ var makeEntry = function () {
         dir == 'auth-flow' ||
         dir == 'auth-flow-async-with-query-params' ||
         dir === 'auth-with-shared-root' ||
-        dir === 'breadcrumbs'
+        dir === 'breadcrumbs' ||
+        dir === 'confirming-navigation'
     })
     .reduce(function (entry, dir) {
       var isDirectory = fs.statSync(path.join(mainDir, dir)).isDirectory()
