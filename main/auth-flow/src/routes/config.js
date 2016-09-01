@@ -2,10 +2,10 @@ import React from 'react'
 import {Route} from 'react-router'
 
 import App from '../modules/App'
-import About from '../modules/About'
-import Dashboard from '../modules/Dashboard'
-import Login from '../modules/Login'
-import Logout from '../modules/Logout'
+import About from '../modules/public/About'
+import Dashboard from '../modules/protected/Dashboard'
+import Login from '../modules/public/Login'
+import Logout from '../modules/public/Logout'
 
 import auth from '../utils/auth'
 

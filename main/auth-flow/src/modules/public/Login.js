@@ -1,7 +1,7 @@
 import React from 'react'
 import {withRouter} from 'react-router'
 
-import auth from '../utils/auth'
+import auth from '../../utils/auth'
 
 export default withRouter(
   // 使用withRouter包装后的组件内部可以直接访问this.props.router

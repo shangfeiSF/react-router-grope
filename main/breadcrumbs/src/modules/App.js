@@ -1,8 +1,8 @@
 import React from 'react'
 import {Link} from 'react-router'
 
-import Products from './Products'
-import Orders from './Orders'
+import Products from './public/Products'
+import Orders from './public/Orders'
 
 const App = React.createClass({
   render() {

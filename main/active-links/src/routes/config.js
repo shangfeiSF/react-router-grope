@@ -2,11 +2,11 @@ import React from 'react'
 import {Route, IndexRoute} from 'react-router'
 
 import App from '../modules/App'
-import Index from '../modules/Index'
-import About from '../modules/About'
-import Users from '../modules/Users'
-import UsersIndex from '../modules/UsersIndex'
-import User from '../modules/User'
+import Index from '../modules/public/Index'
+import About from '../modules/public/About'
+import Users from '../modules/public/Users'
+import UsersIndex from '../modules/public/UsersIndex'
+import User from '../modules/public/User'
 
 export default (
   <Route path="/" component={App}>
