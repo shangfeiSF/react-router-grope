@@ -17,7 +17,8 @@ var makeEntry = function () {
         dir == 'auth-flow-async-with-query-params' ||
         dir === 'auth-with-shared-root' ||
         dir === 'breadcrumbs' ||
-        dir === 'confirming-navigation'
+        dir === 'confirming-navigation' ||
+        dir === 'dynamic-segments'
     })
     .reduce(function (entry, dir) {
       var isDirectory = fs.statSync(path.join(mainDir, dir)).isDirectory()
