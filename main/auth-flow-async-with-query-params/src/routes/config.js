@@ -1,10 +1,10 @@
 import React from 'react'
 import {Route, IndexRoute} from 'react-router'
 
-import App from './App'
-import Form from './Form'
-import Page from './Page'
-import ErrorPage from './ErrorPage'
+import App from '../modules/App'
+import Form from '../modules/Form'
+import Page from '../modules/Page'
+import ErrorPage from '../modules/ErrorPage'
 
 function handlerOnEnter(nextState, replace, next) {
   const query = nextState.location.query

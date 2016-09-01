@@ -1,10 +1,10 @@
 import React from 'react'
 import {Route, IndexRoute} from 'react-router'
 
-import App from './App'
-import Index from './Index'
-import Page1 from './Page1'
-import Page2 from './Page2'
+import App from '../modules/App'
+import Index from '../modules/Index'
+import Page1 from '../modules/Page1'
+import Page2 from '../modules/Page2'
 
 export default (
   <Route path="/" component={App}>

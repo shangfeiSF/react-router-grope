@@ -1,6 +1,6 @@
 import React from 'react'
 
-import auth from './auth'
+import auth from '../utils/auth'
 
 export default React.createClass({
   componentDidMount() {

@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router'
 
-import auth from './auth'
+import auth from '../utils/auth'
 
 export default React.createClass({
   getInitialState() {

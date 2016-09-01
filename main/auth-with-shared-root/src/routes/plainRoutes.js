@@ -1,10 +1,10 @@
-import auth from './utils/auth'
-import redirect from  './utils/redirect'
+import auth from '../utils/auth'
+import redirect from  '../utils/redirect'
 
 // require(……).default 的解释
 // http://stackoverflow.com/questions/36194806/invariant-violation-the-root-route-must-render-a-single-element-error-in-react
 export default {
-  component: require('./components/App').default,
+  component: require('../modules/App').default,
 
   childRoutes: [
     {
@@ -16,7 +16,7 @@ export default {
 
           getComponent: (nextState, cb) => {
             require.ensure([], (require) => {
-              cb(null, require('./components/public/Login').default)
+              cb(null, require('../modules/public/Login').default)
             })
           }
         }
@@ -28,7 +28,7 @@ export default {
 
       getComponent: (nextState, cb) => {
         require.ensure([], (require) => {
-          cb(null, require('./components/public/Logout').default)
+          cb(null, require('../modules/public/Logout').default)
         })
       }
     },
@@ -41,12 +41,12 @@ export default {
 
         if (loggedIn) {
           require.ensure([], (require) => {
-            cb(null, require('./components/protected/ProtectedHome').default)
+            cb(null, require('../modules/protected/ProtectedHome').default)
           })
         }
         else {
           require.ensure([], (require) => {
-            cb(null, require('./components/public/PublicHome').default)
+            cb(null, require('../modules/public/PublicHome').default)
           })
         }
       },
@@ -57,7 +57,7 @@ export default {
 
           if (loggedIn) {
             require.ensure([], (require) => {
-              cb(null, require('./components/protected/Index').default)
+              cb(null, require('../modules/protected/Index').default)
             })
           }
           else {
@@ -76,7 +76,7 @@ export default {
 
               getComponent: (nextState, cb) => {
                 require.ensure([], (require) => {
-                  cb(null, require('./components/protected/ProtectedAbout').default)
+                  cb(null, require('../modules/protected/ProtectedAbout').default)
                 })
               }
             }
@@ -90,7 +90,7 @@ export default {
 
       getComponent: (nextState, cb) => {
         require.ensure([], (require) => {
-          cb(null, require('./components/public/PublicAbout').default)
+          cb(null, require('../modules/public/PublicAbout').default)
         })
       }
     },
@@ -104,7 +104,7 @@ export default {
 
           getComponent: (nextState, cb) => {
             require.ensure([], (require) => {
-              cb(null, require('./components/protected/User').default)
+              cb(null, require('../modules/protected/User').default)
             })
           }
         }

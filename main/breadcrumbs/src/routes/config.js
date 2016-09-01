@@ -1,9 +1,9 @@
 import React from 'react'
 import {Route} from 'react-router'
 
-import App from './App'
-import Products from './Products'
-import Orders from './Orders'
+import App from '../modules/App'
+import Products from '../modules/Products'
+import Orders from '../modules/Orders'
 
 export default (
   <Route path={App.path} component={App}>
