@@ -18,7 +18,8 @@ var makeEntry = function () {
         dir === 'auth-with-shared-root' ||
         dir === 'breadcrumbs' ||
         dir === 'confirming-navigation' ||
-        dir === 'dynamic-segments'
+        dir === 'dynamic-segments' ||
+        dir === 'huge-apps'
     })
     .reduce(function (entry, dir) {
       var isDirectory = fs.statSync(path.join(mainDir, dir)).isDirectory()
