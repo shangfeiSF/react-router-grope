@@ -1,5 +1,5 @@
 module.exports = {
-  path: 'profile',
+  path: 'notices',
 
   getComponent(nextState, cb) {
     require.ensure([], (require) => {

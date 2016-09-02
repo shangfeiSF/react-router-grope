@@ -20,9 +20,7 @@ class App extends Component {
     return (
       <div>
         <GlobalNav />
-        <div style={{ padding: 20 }}>
-          {this.props.children}
-        </div>
+        <div style={{ padding: 20 }}>{this.props.children}</div>
       </div>
     )
   }

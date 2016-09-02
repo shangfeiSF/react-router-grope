@@ -3,7 +3,7 @@ module.exports = {
 
   getComponent(nextState, cb) {
     require.ensure([], (require) => {
-      cb(null, require('./modules/Grades'))
+      cb(null, require('./modules/main'))
     })
   }
 }

@@ -1,7 +1,33 @@
 import React, {Component} from 'react'
 import {Link} from 'react-router'
 
-import styles from '../../utils/globalNavStyle'
+const dark = 'hsl(200, 20%, 20%)'
+const light = '#fff'
+
+const styles = {
+  wrapper: {
+    color: light,
+    padding: '10px 20px',
+
+    background: dark,
+    overflow: 'hidden'
+  },
+
+  link: {
+    color: light,
+    padding: 11,
+
+    fontWeight: 200
+  },
+
+  activeLink: {
+    color: dark,
+    padding: 11,
+
+    fontWeight: 200,
+    background: light
+  }
+}
 
 class GlobalNav extends Component {
   /*
@@ -33,9 +59,9 @@ class GlobalNav extends Component {
 
         <div style={{ float: 'left' }}>
           <Link to="/" style={link}>Home</Link>
-          <Link to="/calendar" style={link} activeStyle={activeLink}>Calendar</Link>
+          <Link to="/about" style={link} activeStyle={activeLink}>About</Link>
           <Link to="/grades" style={link} activeStyle={activeLink}>Grades</Link>
-          <Link to="/messages" style={link} activeStyle={activeLink}>Messages</Link>
+          <Link to="/notices" style={link} activeStyle={activeLink}>Notices</Link>
         </div>
 
         <div style={{ float: 'right' }}>

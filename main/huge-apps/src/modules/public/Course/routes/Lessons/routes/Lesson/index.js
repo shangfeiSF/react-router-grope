@@ -1,5 +1,5 @@
 module.exports = {
-  path: 'profile',
+  path: ':lessonId',
 
   getComponent(nextState, cb) {
     require.ensure([], (require) => {

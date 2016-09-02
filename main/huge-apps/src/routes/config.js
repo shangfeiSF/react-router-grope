@@ -4,13 +4,13 @@ export default {
 
     component: require('../modules/App'),
 
-    indexRoute: require('../modules/public/Dashboard'),
+    indexRoute: require('../modules/public/HomeIndex'),
 
     childRoutes: [
-      require('../modules/public/Calendar'),
+      require('../modules/public/About'),
       require('../modules/public/Course'),
       require('../modules/public/Grades'),
-      require('../modules/public/Messages'),
+      require('../modules/public/Notices'),
       require('../modules/public/Profile')
     ]
   }]
