@@ -15,13 +15,14 @@ class Dashboard extends Component {
           This way, a new route added deep in your app will not affect the
           initial bundle of your application.
         </p>
+
         <h2>Courses</h2>{' '}
         <ul>
-          {courses.map(course => (
-            <li key={course.id}>
-              <Link to={`/course/${course.id}`}>{course.name}</Link>
-            </li>
-          ))}
+          {
+            courses.map(course => (
+              <li key={course.id}><Link to={`/course/${course.id}`}>{course.name}</Link></li>
+            ))
+          }
         </ul>
       </div>
     )

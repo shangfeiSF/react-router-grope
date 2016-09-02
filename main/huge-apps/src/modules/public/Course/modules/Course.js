@@ -18,6 +18,7 @@ class Course extends Component {
     let course = COURSES[params.courseId]
 
     let content
+
     if (sidebar && main) {
       content = (
         <div>
@@ -29,7 +30,8 @@ class Course extends Component {
           </div>
         </div>
       )
-    } else if (children) {
+    }
+    else if (children) {
       content = children
     } else {
       content = <Dashboard />
