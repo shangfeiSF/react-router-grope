@@ -13,13 +13,13 @@
 
 import React, {Component} from 'react'
 
-import GlobalNav from './public/GlobalNav'
+import Nav from './Nav'
 
 class App extends Component {
   render() {
     return (
       <div>
-        <GlobalNav />
+        <Nav />
         <div style={{ padding: 20 }}>{this.props.children}</div>
       </div>
     )

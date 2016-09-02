@@ -29,7 +29,7 @@ const styles = {
   }
 }
 
-class GlobalNav extends Component {
+class Nav extends Component {
   /*
    * The Component API is similar to React.createClass with the exception of getInitialState.
    * Instead of providing a separate getInitialState method, you set up your own state property in the constructor.
@@ -74,11 +74,11 @@ class GlobalNav extends Component {
   }
 }
 
-GlobalNav.defaultProps = {
+Nav.defaultProps = {
   user: {
     id: 1,
     name: 'shangfei.SF'
   }
 }
 
-export default GlobalNav
+export default Nav
