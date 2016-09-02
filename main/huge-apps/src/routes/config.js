@@ -4,6 +4,8 @@ export default {
 
     component: require('../modules/App'),
 
+    indexRoute: require('../modules/public/Dashboard'),
+
     childRoutes: [
       require('../modules/public/Calendar'),
       require('../modules/public/Course'),

@@ -3,7 +3,7 @@ import {Link} from 'react-router'
 
 class Dashboard extends Component {
   render() {
-    const {courses} = this.props
+    const courses = COURSES
 
     return (
       <div>
@@ -29,4 +29,4 @@ class Dashboard extends Component {
   }
 }
 
-export default Dashboard
+module.exports = Dashboard
