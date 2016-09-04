@@ -3,7 +3,7 @@ import React, {Component} from 'react'
 class About extends Component {
   render() {
     const text = {
-      title: 'Super Scalable Apps',
+      title: 'About how a Scalable App works',
       contents: [
         'Open the network tab as you navigate.',
         'Notice that only the amount of your app that is required is actually downloaded as you navigatearound.',
@@ -15,15 +15,15 @@ class About extends Component {
 
     return (
       <div>
-        <h2>About</h2>
+        <h2>About Page</h2>
         <h3>{text.title}</h3>
-        <ol>
+        <ul>
           {
             text.contents.map(tip => (
               <li key={index++}>{tip}</li>
             ))
           }
-        </ol>
+        </ul>
       </div>
     )
   }

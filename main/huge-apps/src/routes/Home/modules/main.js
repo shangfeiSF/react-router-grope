@@ -1,13 +1,14 @@
 import React, {Component} from 'react'
 import {Link} from 'react-router'
 
-class HomeIndex extends Component {
+class Home extends Component {
   render() {
     const courses = COURSES
 
     return (
       <div>
-        <h2>Courses List</h2>{' '}
+        <h2>Home Page(Courses List)</h2>
+        <h3>(Home page is just the list of courses)</h3>
         <ul>
           {
             courses.map(course => (
@@ -22,4 +23,4 @@ class HomeIndex extends Component {
   }
 }
 
-module.exports = HomeIndex
+module.exports = Home

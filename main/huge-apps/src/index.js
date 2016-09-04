@@ -15,13 +15,13 @@ var routes = {
 
     component: require('./modules/main'),
 
-    indexRoute: require('./routes/HomeIndex'),
+    indexRoute: require('./routes/Home'),
 
     childRoutes: [
-      require('./routes/About'),
       require('./routes/Course'),
       require('./routes/Grades'),
       require('./routes/Notices'),
+      require('./routes/About'),
       require('./routes/Profile')
     ]
   }]

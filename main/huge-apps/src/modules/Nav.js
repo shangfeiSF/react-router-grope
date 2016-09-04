@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import {Link} from 'react-router'
+import {Link, IndexLink} from 'react-router'
 
 const dark = 'hsl(200, 20%, 20%)'
 const light = '#fff'
@@ -7,7 +7,7 @@ const light = '#fff'
 const styles = {
   wrapper: {
     color: light,
-    padding: '10px 20px',
+    padding: '8px 20px 3px',
 
     background: dark,
     overflow: 'hidden'
@@ -15,14 +15,14 @@ const styles = {
 
   link: {
     color: light,
-    padding: 11,
+    padding: '15px',
 
     fontWeight: 200
   },
 
   activeLink: {
     color: dark,
-    padding: 11,
+    padding: '15px',
 
     fontWeight: 200,
     background: light
@@ -58,15 +58,15 @@ class Nav extends Component {
       <div style={wrapper}>
 
         <div style={{ float: 'left' }}>
-          <Link to="/" style={link}>Home</Link>
-          <Link to="/about" style={link} activeStyle={activeLink}>About</Link>
+          <IndexLink to="/" style={link} activeStyle={activeLink}>Home</IndexLink>
           <Link to="/grades" style={link} activeStyle={activeLink}>Grades</Link>
           <Link to="/notices" style={link} activeStyle={activeLink}>Notices</Link>
+          <Link to="/about" style={link} activeStyle={activeLink}>About</Link>
         </div>
 
         <div style={{ float: 'right' }}>
           <Link style={link} to="/profile">{user.name}</Link>
-          <button onClick={this.logOut}>logout</button>
+          <span onClick={this.logOut}>logout</span>
         </div>
 
       </div>

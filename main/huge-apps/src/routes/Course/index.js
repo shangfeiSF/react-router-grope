@@ -10,8 +10,8 @@ module.exports = {
   getChildRoutes(partialNextState, cb) {
     require.ensure([], (require) => {
       cb(null, [
-        require('./routes/Notices'),
         require('./routes/Lessons'),
+        require('./routes/Notices'),
         require('./routes/Weights')
       ])
     })

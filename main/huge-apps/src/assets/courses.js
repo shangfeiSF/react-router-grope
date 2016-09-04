@@ -7,6 +7,10 @@ global.COURSES = [
       id: 0,
       title: 'This is a base course for JSer',
       content: 'You can learn more about how to use Javascript to build a web-page.'
+    }, {
+      id: 1,
+      title: 'All the JSers need to learn JavaScript by coding in practice',
+      content: 'More coding, more thinking and the more skills you got it.'
     }],
     lessons: [{
       id: 0,
@@ -28,7 +32,11 @@ global.COURSES = [
     notices: [{
       id: 0,
       title: 'React is a MMVC lib for advanced JSer',
-      content: 'Learn more about React like react-router and reflux'
+      content: 'Learn more about React like react-router and reflux.'
+    }, {
+      id: 1,
+      title: 'React-router is a good helper for App based on React',
+      content: 'React-router has a lot of base knowledge needed to learn by heart.'
     }],
     lessons: [{
       id: 0,

@@ -7,15 +7,22 @@ class Weights extends Component {
     return (
       <div>
         <h3>Weights</h3>
-        <ul>
-          {lessons.map(lesson => (
-            <li key={lesson.id}>
-              <div>{lesson.title}</div>
-              <div>{lesson.content}</div>
-              <div>{lesson.weight}</div>
-            </li>
-          ))}
-        </ul>
+        {
+          lessons.map((lesson, index) => (
+            <div key={lesson.id}>
+              <h4>{lesson.title}</h4>
+              <table>
+                <tbody>
+                <tr>
+                  <td>{lesson.weight}</td>
+                  <td>|</td>
+                  <td>{lesson.content}</td>
+                </tr>
+                </tbody>
+              </table>
+            </div>
+          ))
+        }
       </div>
     )
   }
