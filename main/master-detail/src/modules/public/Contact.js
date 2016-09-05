@@ -1,41 +1,41 @@
 import React from 'react'
 import {withRouter} from 'react-router'
 
-import ContactStore from '../../assets/ContactStore'
+import store from '../../utils/store'
 
 export default withRouter(
   React.createClass({
-    _getContact(props) {
+    _get(props) {
       const {id} = props ? props.params : this.props.params
 
       return {
-        contact: ContactStore.get(id)
+        contact: store.get(id)
       }
     },
 
+    _update() {
+      this.setState(this._get())
+    },
+
     getInitialState() {
-      return this._getContact()
+      return this._get()
     },
 
     componentDidMount() {
-      ContactStore.addListener(this.updateContact)
+      store.addListener(this._update)
+    },
+    
+    componentWillReceiveProps(nextProps) {
+      this.setState(this._get(nextProps))
     },
 
     componentWillUnmount() {
-      ContactStore.removeListener(this.updateContact)
-    },
-
-    componentWillReceiveProps(nextProps) {
-      this.setState(this._getContact(nextProps))
-    },
-
-    updateContact() {
-      this.setState(this._getContact())
+      store.removeListener(this._update)
     },
 
     handlerOnClick() {
       const {id} = this.props.params
-      ContactStore.remove(id)
+      store.remove(id)
       this.props.router.push('/')
     },
 
@@ -46,7 +46,7 @@ export default withRouter(
 
       return (
         <div className="Contact">
-          <img height="50" src={avatar} key={avatar}/>
+          <img width="50" height="50" src={avatar} key={avatar}/>
           <h3>{name}</h3>
           <button onClick={this.handlerOnClick}>Delete</button>
         </div>

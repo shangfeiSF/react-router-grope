@@ -1,33 +1,33 @@
 import React from 'react'
 import {Link} from 'react-router'
 
-import ContactStore from '../assets/ContactStore'
+import store from '../utils/store'
 
 export default React.createClass({
+  _update() {
+    this.setState({
+      contacts: store.getAll()
+    })
+  },
+
   getInitialState() {
     return {
-      contacts: ContactStore.getAll()
+      contacts: store.getAll()
     }
   },
 
   componentWillMount() {
-    ContactStore.init()
+    store.init()
   },
 
   componentDidMount() {
-    ContactStore.addListener(this.updateContacts)
+    store.addListener(this._update)
   },
 
   componentWillUnmount() {
-    ContactStore.removeListener(this.updateContacts)
+    store.removeListener(this._update)
   },
-
-  updateContacts() {
-    this.setState({
-      contacts: ContactStore.getAll()
-    })
-  },
-
+  
   render() {
     const contacts = this.state.contacts.map(function (contact) {
       return (

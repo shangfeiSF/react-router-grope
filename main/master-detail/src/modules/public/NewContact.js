@@ -2,16 +2,17 @@ import React from 'react'
 import {findDOMNode} from 'react-dom'
 import {Link, withRouter} from 'react-router'
 
-import ContactStore from '../../assets/ContactStore'
+import store from '../../utils/store'
 
 export default withRouter(
   React.createClass({
     handlerOnSubmit(e) {
       e.preventDefault()
 
-      ContactStore.add(
+      /* use refs only or wrapped by findDOMNode*/
+      store.add(
         {
-          first: findDOMNode(this.refs.first).value,
+          first: this.refs.first.value,
           last: findDOMNode(this.refs.last).value
         },
         (contact) => {
