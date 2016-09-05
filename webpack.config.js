@@ -19,7 +19,8 @@ var makeEntry = function () {
         dir === 'breadcrumbs' ||
         dir === 'confirming-navigation' ||
         dir === 'dynamic-segments' ||
-        dir === 'huge-apps'
+        dir === 'huge-apps' ||
+        dir === 'master-detail'
     })
     .reduce(function (entry, dir) {
       var isDirectory = fs.statSync(path.join(mainDir, dir)).isDirectory()
