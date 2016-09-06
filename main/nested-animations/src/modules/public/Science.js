@@ -2,15 +2,15 @@ import React from 'react'
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
 import {Link} from 'react-router'
 
-const Home = ({children, location: {pathname}}) => (
+const Science = ({children, location: {pathname}}) => (
   <div className="Image">
-    <h1>Home Page</h1>
-    
+    <h1>Science Page</h1>
+
     <ul>
-      <li><Link to="/home/courses">Courses</Link></li>
-      <li><Link to="/home/users">Users</Link></li>
+      <li><Link to="/science/home">Home</Link></li>
+      <li><Link to="/science/about">About</Link></li>
     </ul>
-    
+
     <ReactCSSTransitionGroup
       component="div"
       transitionName="example"
@@ -24,4 +24,4 @@ const Home = ({children, location: {pathname}}) => (
   </div>
 )
 
-export default Home
+export default Science

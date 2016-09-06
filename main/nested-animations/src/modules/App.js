@@ -11,8 +11,8 @@ const App = ({children, location: {pathname}}) => {
       <h1>Root</h1>
 
       <ul>
-        <li><Link to="/home">Home</Link></li>
-        <li><Link to="/about">About</Link></li>
+        <li><Link to="/math">Math</Link></li>
+        <li><Link to="/science">Science</Link></li>
       </ul>
 
       <ReactCSSTransitionGroup
