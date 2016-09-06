@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a783cc9-3ac9-42f6-966f-0d1982a0f42c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/passing-props-to-children/src/assets/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/passing-props-to-children/src/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/passing-props-to-children/src/modules/App.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/passing-props-to-children/src/modules/public/Courses.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/passing-props-to-children/src/routes/config.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main/passing-props-to-children/app.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main/passing-props-to-children/app.js" afterPath="" />
+    <list default="true" id="6a783cc9-3ac9-42f6-966f-0d1982a0f42c" name="Default" comment="use">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/passing-props-to-children/index.html" afterPath="$PROJECT_DIR$/main/passing-props-to-children/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/passing-props-to-children/src/assets/index.css" afterPath="$PROJECT_DIR$/main/passing-props-to-children/src/assets/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/passing-props-to-children/src/modules/App.js" afterPath="$PROJECT_DIR$/main/passing-props-to-children/src/modules/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
     </list>
     <ignored path="2.recat-router-grope.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,7 +26,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/nested-animations/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="364">
@@ -80,21 +75,28 @@
       <file leaf-file-name="Courses.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/passing-props-to-children/src/modules/public/Courses.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+            <state relative-caret-position="168">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main/passing-props-to-children/src/modules/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="938">
-              <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+            <state relative-caret-position="711">
+              <caret line="61" column="55" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="55" />
               <folding>
-                <element signature="e#0#25#0" expanded="true" />
-                <element signature="e#1415#1480#0" expanded="false" />
+                <element signature="e#144#353#0" expanded="false" />
+                <element signature="e#159#347#0" expanded="false" />
+                <element signature="e#179#229#0" expanded="false" />
+                <element signature="e#231#282#0" expanded="false" />
+                <element signature="e#284#338#0" expanded="false" />
+                <element signature="e#615#799#0" expanded="false" />
+                <element signature="e#637#757#0" expanded="false" />
+                <element signature="e#700#748#0" expanded="false" />
+                <element signature="e#1160#1225#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -103,17 +105,25 @@
       <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/passing-props-to-children/src/assets/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+            <state relative-caret-position="84">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding>
                 <element signature="e#5#72#0" expanded="false" />
                 <element signature="e#76#110#0" expanded="false" />
                 <element signature="e#121#154#0" expanded="false" />
                 <element signature="e#165#192#0" expanded="false" />
                 <element signature="e#199#317#0" expanded="false" />
-                <element signature="e#327#456#0" expanded="false" />
-                <element signature="e#466#623#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webpack.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="683">
+              <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -161,7 +171,6 @@
         <option value="$PROJECT_DIR$/main/nested-animations/src/modules/public/UsersTab.js" />
         <option value="$PROJECT_DIR$/main/nested-animations/src/modules/public/About.js" />
         <option value="$PROJECT_DIR$/main/nested-animations/src/modules/public/Home.js" />
-        <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/main/nested-animations/index.html" />
         <option value="$PROJECT_DIR$/main/nested-animations/src/routes/config.js" />
         <option value="$PROJECT_DIR$/main/nested-animations/src/modules/public/Science.js" />
@@ -170,13 +179,14 @@
         <option value="$PROJECT_DIR$/main/nested-animations/src/modules/public/AboutTab.js" />
         <option value="$PROJECT_DIR$/main/nested-animations/src/modules/public/Math.js" />
         <option value="$PROJECT_DIR$/main/nested-animations/src/assets/index.css" />
-        <option value="$PROJECT_DIR$/main/passing-props-to-children/src/assets/index.css" />
         <option value="$PROJECT_DIR$/main/passing-props-to-children/index.html" />
         <option value="$PROJECT_DIR$/main/passing-props-to-children/src/index.js" />
         <option value="$PROJECT_DIR$/main/passing-props-to-children/app.js" />
         <option value="$PROJECT_DIR$/main/passing-props-to-children/src/routes/config.js" />
-        <option value="$PROJECT_DIR$/main/passing-props-to-children/src/modules/public/Courses.js" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/main/passing-props-to-children/src/modules/App.js" />
+        <option value="$PROJECT_DIR$/main/passing-props-to-children/src/modules/public/Courses.js" />
+        <option value="$PROJECT_DIR$/main/passing-props-to-children/src/assets/index.css" />
       </list>
     </option>
   </component>
@@ -423,72 +433,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2.recat-router-grope" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2.recat-router-grope" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nested-animations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2.recat-router-grope" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2.recat-router-grope" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nested-animations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2.recat-router-grope" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2.recat-router-grope" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nested-animations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="routes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -617,14 +561,7 @@
       <workItem from="1472990452006" duration="5201000" />
       <workItem from="1473042732280" duration="13042000" />
       <workItem from="1473065569654" duration="2391000" />
-      <workItem from="1473129414522" duration="1508000" />
-    </task>
-    <task id="LOCAL-00011" summary="leran react-router step by step">
-      <created>1471847740964</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1471847740964</updated>
+      <workItem from="1473129414522" duration="2557000" />
     </task>
     <task id="LOCAL-00012" summary="leran react-router step by step">
       <created>1471848132241</created>
@@ -962,11 +899,18 @@
       <option name="project" value="LOCAL" />
       <updated>1473129629176</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="format passing-props-to-children">
+      <created>1473130960371</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1473130960371</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193501000" />
+    <option name="totallyTimeSpent" value="194550000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1033,7 +977,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="format auth-with-shanred-root" />
     <MESSAGE value="grope auth-with-shanred-root" />
     <MESSAGE value="format breadcrumbs" />
     <MESSAGE value="grope breadcrumbs about routes and breadTitle" />
@@ -1058,7 +1001,8 @@
     <MESSAGE value="split to store and io，es6 class and extends are used" />
     <MESSAGE value="format nested-animations" />
     <MESSAGE value="more clear about page and tab" />
-    <option name="LAST_COMMIT_MESSAGE" value="more clear about page and tab" />
+    <MESSAGE value="format passing-props-to-children" />
+    <option name="LAST_COMMIT_MESSAGE" value="format passing-props-to-children" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1221,13 +1165,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/nested-animations/src/modules/public/UsersTab.js" />
     <entry file="file://$PROJECT_DIR$/main/nested-animations/src/modules/public/About.js" />
     <entry file="file://$PROJECT_DIR$/main/nested-animations/src/modules/public/Home.js" />
@@ -1335,22 +1272,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/passing-props-to-children/src/assets/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-          <folding>
-            <element signature="e#5#72#0" expanded="false" />
-            <element signature="e#76#110#0" expanded="false" />
-            <element signature="e#121#154#0" expanded="false" />
-            <element signature="e#165#192#0" expanded="false" />
-            <element signature="e#199#317#0" expanded="false" />
-            <element signature="e#327#456#0" expanded="false" />
-            <element signature="e#466#623#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/passing-props-to-children/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
@@ -1371,25 +1292,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/passing-props-to-children/src/modules/public/Courses.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/passing-props-to-children/src/modules/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="938">
-          <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-            <element signature="e#1415#1480#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/passing-props-to-children/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1404,6 +1306,54 @@
           <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="683">
+          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/passing-props-to-children/src/modules/public/Courses.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/passing-props-to-children/src/assets/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#5#72#0" expanded="false" />
+            <element signature="e#76#110#0" expanded="false" />
+            <element signature="e#121#154#0" expanded="false" />
+            <element signature="e#165#192#0" expanded="false" />
+            <element signature="e#199#317#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/passing-props-to-children/src/modules/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="711">
+          <caret line="61" column="55" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="55" />
+          <folding>
+            <element signature="e#144#353#0" expanded="false" />
+            <element signature="e#159#347#0" expanded="false" />
+            <element signature="e#179#229#0" expanded="false" />
+            <element signature="e#231#282#0" expanded="false" />
+            <element signature="e#284#338#0" expanded="false" />
+            <element signature="e#615#799#0" expanded="false" />
+            <element signature="e#637#757#0" expanded="false" />
+            <element signature="e#700#748#0" expanded="false" />
+            <element signature="e#1160#1225#0" expanded="false" />
           </folding>
         </state>
       </provider>

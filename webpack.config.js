@@ -21,7 +21,8 @@ var makeEntry = function () {
         dir === 'dynamic-segments' ||
         dir === 'huge-apps' ||
         dir === 'master-detail' ||
-        dir === 'nested-animations'
+        dir === 'nested-animations' ||
+        dir === 'passing-props-to-children'
     })
     .reduce(function (entry, dir) {
       var isDirectory = fs.statSync(path.join(mainDir, dir)).isDirectory()

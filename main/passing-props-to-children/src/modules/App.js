@@ -5,20 +5,16 @@ export default withRouter(
   React.createClass({
     getInitialState() {
       return {
-        courses: [
-          {
-            id: 0,
-            name: 'Art'
-          },
-          {
-            id: 1,
-            name: 'Math'
-          },
-          {
-            id: 2,
-            name: 'Science'
-          }
-        ]
+        courses: [{
+          id: 0,
+          name: 'Art'
+        }, {
+          id: 1,
+          name: 'Math'
+        }, {
+          id: 2,
+          name: 'Science'
+        }]
       }
     },
 
@@ -55,7 +51,7 @@ export default withRouter(
 
       return (
         <div className="App">
-          <button onClick={this.addCourse}>Add New Course</button>
+          <button onClick={this.addCourse}>Add Course</button>
 
           <ul className="Master">
             {courseLinks}
