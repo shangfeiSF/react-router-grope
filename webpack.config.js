@@ -22,7 +22,8 @@ var makeEntry = function () {
         dir === 'huge-apps' ||
         dir === 'master-detail' ||
         dir === 'nested-animations' ||
-        dir === 'passing-props-to-children'
+        dir === 'passing-props-to-children' ||
+        dir === 'pinterest'
     })
     .reduce(function (entry, dir) {
       var isDirectory = fs.statSync(path.join(mainDir, dir)).isDirectory()
