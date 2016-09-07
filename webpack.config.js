@@ -24,7 +24,8 @@ var makeEntry = function () {
         dir === 'nested-animations' ||
         dir === 'passing-props-to-children' ||
         dir === 'pinterest' ||
-        dir === 'query-params'
+        dir === 'query-params' ||
+        dir === 'route-no-match'
     })
     .reduce(function (entry, dir) {
       var isDirectory = fs.statSync(path.join(mainDir, dir)).isDirectory()
