@@ -23,7 +23,8 @@ var makeEntry = function () {
         dir === 'master-detail' ||
         dir === 'nested-animations' ||
         dir === 'passing-props-to-children' ||
-        dir === 'pinterest'
+        dir === 'pinterest' ||
+        dir === 'query-params'
     })
     .reduce(function (entry, dir) {
       var isDirectory = fs.statSync(path.join(mainDir, dir)).isDirectory()
