@@ -1,14 +1,9 @@
-export default  [
-  {
-    id: 0,
-    src: 'http://placekitten.com/601/601'
-  },
-  {
-    id: 1,
-    src: 'http://placekitten.com/610/610'
-  },
-  {
-    id: 2,
-    src: 'http://placekitten.com/620/620'
+const API = 'http://placekitten.com'
+const sizes = ['200', '250', '300']
+
+export default sizes.map((size, index) => {
+  return {
+    id: index,
+    src: `${API}/${size}/${size}`
   }
-]
+})
