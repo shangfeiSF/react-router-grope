@@ -41,6 +41,17 @@
     "webpack-dev-middleware": "^1.6.1",
     "webpack-dev-server": "^1.14.1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:shangfeiSF/react-router-grope.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "Nodejs",
+    "React",
+    "React-router",
+    "React-hot-replacement"
+  ],
   "author": "shangfei.SF",
   "license": "ISC"
 }
