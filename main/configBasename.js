@@ -1,9 +1,11 @@
 import useBasename from 'history/lib/useBasename'
 
 const configBasename = function (browserHistory, dirname) {
-  let dir = dirname.split('\\')[1]
+  console.log(dirname);
+  let dir = dirname.split(dirname.indexOf('\\') > -1 ? '\\' : '/')[1]
+
   let basename = `/main/${dir}`
-  
+
   return useBasename(() => browserHistory)({
     basename: basename
   })

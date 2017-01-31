@@ -1,5 +1,45 @@
 # react-router-grope
 
+## Prepare
+
+We need **webpack** and **webpack-dev-server** in global
+
+`npm install -g webpack webpack-dev-server`
+
+then `cd path/to/react-router` and `npm install`
+
+##Lessons
+
+`cd path/to/react-router/lessons` and use `node run [options]` to learn the concepts about React-router
+
+###  Options about `node run [options]`
+
+* `-env <String>` : Indicates which env should be setup. `development` or `production`, `-dev` and `-pro` is the shorts of `-env development` and `-env production`
+* `-input <String>`: Indicates which demo by sequence should be started. `-i` is its shortcut, e.g. `-i  06.params`  will start `lessons/06.params`.
+* `-port <Number>` Indicates the port of server. `-p` is its shortcut, default is `8080`
+
+When try to run demos form `01.setting-up` to `10.clean-urls`, it is the same to use `-dev` and `-pro`.
+
+But when try to run demos from `11.productionish-server` to `11.navigating`, you need ndicate which env should to be setup.
+ 
+ Last when try to run `12.server-rendering`, you need to use `-pro` only.
+ 
+ >Migrating from v1 to v2:
+ >DedupePlugin has been removed.
+ >Webpack.optimize.DedupePlugin isn't needed anymore. Remove it from your configuration.
+
+##Main
+
+Compare to `Lessons`, it is simple to run demos in `Main`
+
+Just use npm-scripts follows:
+
+`npm start` to develop with react-hot-loader
+
+`npm run normal` to run with express
+
+`npm run build` to make `__build__/` in local
+
 ## License
 
 (The MIT License)

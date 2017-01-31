@@ -19,9 +19,11 @@ module.exports = {
     ]
   },
 
-  // http://webpack.github.io/docs/optimization.html
+  // webpack-1: http://webpack.github.io/docs/optimization.html
   plugins: [
-    new webpack.optimize.DedupePlugin(),
+    // From webpack-1 to webpack-2:
+    // https://webpack.js.org/guides/migrating/#dedupeplugin-has-been-removed
+    // new webpack.optimize.DedupePlugin(),
     new webpack.optimize.OccurrenceOrderPlugin(),
     new webpack.optimize.UglifyJsPlugin()
   ]
